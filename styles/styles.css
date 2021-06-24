@@ -6,13 +6,15 @@ html {
 
 p {
     font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
 }
 
 body {
+    background-image: url('assets/paperBg.jpeg');
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
 }
 .attraction {
     display: grid;
@@ -21,21 +23,26 @@ body {
 .button,
 .dropbtn,
 .btnpurchase {
-    background-color: rgba(230,114,53, 0.6);
+    background-color: rgba(119, 191, 226, 0.8);
 
     color: black;
-    padding: 10px 10px;
+    padding: 25px 25px 25px 25px;
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 15px/30px;
-    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.3);
     font-weight: bold;
+    border-style: inset;
+    height: auto;
+    width: auto;
 }
 
 .button:hover {
-    background-color: #d96c32;
+    background-color: rgba(54, 161, 212, 1);
+    cursor: pointer;
+    border-style: outset;
 }
 
 .sliderMetric,
@@ -80,8 +87,9 @@ input[type="range"]::-webkit-slider-runnable-track:hover {
 }
 
 img {
-    border-radius: 15px;
-    max-width: 60%;
+    border-radius: 40px;
+    max-width: 100%;
+    
 }
 
 header {
@@ -93,6 +101,8 @@ header {
 }
 
 #header-data-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
@@ -102,10 +112,10 @@ header {
 }
 
 #logo-container {
-    padding: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
     display: flex;
     border-style: inset;
-    background-color: rgba(252,231,134,0.2);
+    background-color: rgba(252,231,134,0.1);
     width: 20%;
     flex-direction: row;
     align-items: center;
@@ -113,9 +123,9 @@ header {
 }
 
 #navbar-container {
-    padding: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
     display: flex;
-    background-color: rgba(252,231,134,0.2);
+    background-color: rgba(252,231,134,0.1);
     border-width: 2px;
     border-style: inset;
     border-radius: 5px;
@@ -129,26 +139,54 @@ header {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    background-color: rgba(252,231,134,0.2);
+    border-radius: 40px;
 }
 
+#sec1 {
+    display: flex;
+
+}
 .slideshow-container {
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
     display:flex;
-    justify-content: center;
+    flex-flow: column;
     
-    flex-flow: column wrap;
-    position: relative;
-    margin: auto;
 }
 .slides {
     display: none;
 }
 
-.text {
+.slide-image {
+    
+}
 
+.slide-text {
+    padding: 15px 15px 15px 15px;
+    width: 100%;
+    text-align:center;
 }
 .slide-number {
-    color: #f2f2f2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    color:'black';
+    font-size: 10px;
+    padding: 6px 12px;
+    /* position: absolute; */
+    top: 0;
 }
+
+#prev-next-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+
+}
+
 .prev, .next {
     cursor: pointer;
     position:relative;
@@ -161,17 +199,30 @@ header {
     margin-top: -20px;
     padding: 15px;
 }
+
 .next {
     right: 0;
 }
+
 .prev:hover, .next:hover {
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(0, 0, 0, 0.1);
 }
+
+
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 3s;
     animation-name: fade;
     animation-duration: 3s;
+}
+
+#sec1-about-container {
+    background-color: rgba(230, 114, 52, 0.2);
+    border-radius: 10px;
+    padding: 25px 25px 25px 25px;
+    align-items: center;
+    justify-items: auto;
+    justify-content: center;
 }
 
 @-webkit-keyframes fade {
