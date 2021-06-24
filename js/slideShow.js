@@ -1,5 +1,12 @@
 let slideNumber = 1;
 
+const nextSlide = x => {
+    renderSlide(slideNumber += x);
+}
+
+const thisSlide = x => {
+    renderSlide(x);
+}
 const renderSlide = x => {
     let slideList = document.getElementsByClassName('slides');
     if (x > slideList.length) slideNumber = 1;
@@ -10,28 +17,10 @@ const renderSlide = x => {
     }
     
     slideList[slideNumber - 1].style.display = 'block';
-    
-    
 }
 
-const thisSlide = x => {
-    renderSlide(x);
-}
 
-const nextSlide = x => {
-    renderSlide(slideNumber += x);
-}
-
-const autoSlideShow = (x) => {
-    let i = 0;
-    while(i < x) {
-        for(let j = 1; j < 4; j++) {
-            setTimeout(renderSlide(j), 2000);
-        }
-        i++;
-    }    
-}
 renderSlide(slideNumber);
-autoSlideShow(100);
+
 
 
