@@ -25,4 +25,10 @@ const renderSlide = x => {
 }
 
 
+<<<<<<< Updated upstream
 renderSlide(slideNumber);
+=======
+
+renderSlide(slideNumber);
+
+>>>>>>> Stashed changes
