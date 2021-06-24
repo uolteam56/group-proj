@@ -10,11 +10,10 @@ p {
 }
 
 body {
-    background-image: url('assets/paperBg.jpeg');
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 95%;
 }
 .attraction {
     display: grid;
@@ -30,7 +29,6 @@ body {
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    /* border: 2px solid black; */
     border-radius: 15px/30px;
     box-shadow: 0 4px 2px rgba(0, 0, 0, 0.3);
     font-weight: bold;
@@ -43,6 +41,7 @@ body {
     background-color: rgba(54, 161, 212, 1);
     cursor: pointer;
     border-style: outset;
+    border: 2px solid mintcream;
 }
 
 .sliderMetric,
@@ -89,7 +88,6 @@ input[type="range"]::-webkit-slider-runnable-track:hover {
 img {
     border-radius: 40px;
     max-width: 100%;
-    
 }
 
 header {
@@ -132,14 +130,14 @@ header {
     width: 80%;
     flex-direction: row;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-around;
 }
 
 .sec {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    background-color: rgba(252,231,134,0.2);
+    /* background-color: rgba(252,231,134,0.2); */
     border-radius: 40px;
 }
 
@@ -152,8 +150,8 @@ header {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
-    display:flex;
-    flex-flow: column;
+    display: flex;
+    flex-flow: column wrap;
     
 }
 .slides {
@@ -161,23 +159,20 @@ header {
 }
 
 .slide-image {
-    
+    position: relative;
+    width: 100%;
+    height: 400px;
+    object-fit: cover; 
 }
 
-.slide-text {
-    padding: 15px 15px 15px 15px;
+.button-text {
+    letter-spacing: 1.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     width: 100%;
-    text-align:center;
-}
-.slide-number {
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-    color:'black';
-    font-size: 10px;
-    padding: 6px 12px;
-    /* position: absolute; */
-    top: 0;
+    text-align: justify;
 }
 
 #prev-next-container {
@@ -216,15 +211,44 @@ header {
     animation-duration: 3s;
 }
 
-#sec1-about-container {
-    background-color: rgba(230, 114, 52, 0.2);
-    border-radius: 10px;
+.sec-about-container {
+    background-color: rgba(252,231,134,0.3);
+    border-radius: 40px;
     padding: 25px 25px 25px 25px;
-    align-items: center;
-    justify-items: auto;
-    justify-content: center;
+    height: 100%;
 }
 
+.general-text {
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+#sec2 {
+    display: flex;
+}
+
+.fractal-land-images {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+#fractal-1 {
+    padding-right: 35%;
+    padding-bottom: 30px;
+    
+    height: 30%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+#fractal-2 {
+    padding-left: 35%;
+    /* padding-right: 30px; */
+    width: 60%;
+    height: 30%;
+    object-fit: cover;
+}
 @-webkit-keyframes fade {
     from {opacity: .1}
     to {opacity: 1}

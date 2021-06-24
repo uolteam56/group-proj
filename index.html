@@ -33,13 +33,13 @@
       </div>
       <div id="navbar-container">
         <div class="headerbutton" id="hoursbutton">
-          <a class="button slide-text" href="/hours.html">Hours</a>
+          <a class="button button-text" href="/hours.html">Hours</a>
         </div>
         <div class="headerbutton" id="explorebutton">
-          <a class="button slide-text" href="/attractions.html">Explore</a>
+          <a class="button button-text" href="/attractions.html">Explore</a>
         </div>
           <div class="headerbutton" id="ticketsbutton">
-          <a class="button slide-text" href="/ticketing.html">Bookings</a>
+          <a class="button button-text" href="/ticketing.html">Bookings</a>
         </div>
       </div>
     </div>
@@ -76,11 +76,11 @@
     
   </div>
 
-  <div id = sec1-about-container>
+  <div class = sec-about-container>
     <!--Contains some information about the park, embedded links to attractions and booking-->   
-      <div class="sec1_about">  
+      <div id = "sec1_about">  
         <h3>The CS Park</h3>
-        <p class = 'slide-text'>Welcome to the Computer Science Theme Park! Hosting traditional <a href="/attractions.html">amusement park rides</a> for all the thrill lovers out there along with historical and educational attractions, there is something here for everyone! With such a variety of features, we are truly the first of our kind. Please take a tour through our extensive array of activities and make sure to <a href="/ticketing.html">book tickets</a> in advance!</p>   
+        <p class = "general-text">Welcome to the Computer Science Theme Park! Hosting traditional <a href="/attractions.html">amusement park rides</a> for all the thrill lovers out there along with historical and educational attractions, there is something here for everyone! With such a variety of features, we are truly the first of our kind. Please take a tour through our extensive array of activities and make sure to <a href="/ticketing.html">book tickets</a> in advance!</p>   
       </div>
     <!--Button for booking tickets -->
     <div class="sec1button" id="ticketsbutton">
@@ -94,29 +94,30 @@
 <!-- Div class section2 containing 2 images for fractal land, about text, link to booking-->
 <div class= "sec" id = "sec2">
         <!-- Image of fractal model and fractal mirror -->
-        <div class="Fractal_Land_Images">
-            <img src="/assets/attractions/fractalModels_fractal_land.jpeg" 
+        <div class="fractal-land-images">
+            <img id = "fractal-1" src="/assets/attractions/fractalModels_fractal_land.jpeg" 
              alt="Image of computer generated fractal model">
         
-            <img src="/assets/attractions/fractalMirror_fractal_land.jpeg"
+            <img id = "fractal-2" src="/assets/attractions/fractalMirror_fractal_land.jpeg"
              alt="Image of the output of a person's mirror reflection distorted using fractals">
         </div>
     <!-- Some information about fractal land-->
-        <div class="sec2_about">
-        <h3>Fractal Land</h3>
-            <p><em>Experience an ever-changing gallery</em></p>
-            <p>Fractals are complex patterns characterized by repeated simple processes that repeat an infinite number of times. Here, we harness this concept to provide a spectacle of constantly evolving art.</p> 
+    <div class = sec-about-container>
+        <div id ="sec2_about">
+        <h3 class = general-text>Fractal Land</h3>
+            <p class = general-text><em>Experience an ever-changing gallery</em></p>
+            <p class = general-text>Fractals are complex patterns characterized by repeated simple processes that repeat an infinite number of times. Here, we harness this concept to provide a spectacle of constantly evolving art.</p> 
             
-        <p>Immerse yourself in these works using our fractal mirror, which uses your own reflection to create a one of a kind art piece to treasure.</p>
+        <p class = general-text>Immerse yourself in these works using our fractal mirror, which uses your own reflection to create a one of a kind art piece to treasure.</p>
         </div>
+        <div class="sec1button" id="ticketsbutton">
+          <a class="button" href="/ticketing.html">Book tickets now!</a>   
+         </div>
+    </div>
     <!--Button for booking tickets -->  
-         <div class="sec1button" id="ticketsbutton">
-         <a class="button" href="/ticketing.html">Book tickets now!</a>   
-        </div>
+         
 </div>
-<br>
-<br>
-<br>      
+      
 <!-- Div class section3 containing 4 images of the CS history museum and meet the stars attractions, about text, and a link to booking-->
   <div class="sec" id = "sec3"> 
       <!-- Images of museum & meet the stars -->
