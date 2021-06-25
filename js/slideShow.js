@@ -20,7 +20,6 @@ const renderSlide = x => {
 }
 
 
+
 renderSlide(slideNumber);
-
-
 
