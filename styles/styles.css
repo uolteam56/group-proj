@@ -174,12 +174,18 @@ footer{
     width: 90%;
     /* background-color: rgba(252,231,134,0.2); */
     border-radius: 40px;
-}
-
-#sec1 {
     display: flex;
-
+    margin-bottom: 5%;
 }
+
+#sec1{
+    margin-top:2.5%
+}
+
+#sec4{
+    margin-bottom: 2.5%;
+}
+
 .slideshow-container {
     border-radius: 40px;
     padding-left: 10px;
@@ -271,7 +277,6 @@ footer{
 #fractal-1 {
     padding-right: 35%;
     padding-bottom: 30px;
-    
     height: 30%;
     object-fit: cover;
     border-radius: 40px;
@@ -284,6 +289,23 @@ footer{
     height: 30%;
     object-fit: cover;
 }
+
+.Museum_Stars_Images{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+.Museum_Stars_Images, #sac4{
+    margin-right: 2%;
+}
+
+#attractions{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
 @-webkit-keyframes fade {
     from {opacity: .1}
     to {opacity: 1}

@@ -43,7 +43,6 @@
       </div>
     </div>
   </header>
-  <br>
   
   <!--div class section1 containing a slideshow of some park images, information about the park, and a link to booking-->
   <div class="sec" id = "sec1">
@@ -52,20 +51,17 @@
       <!-- Images with number and caption text -->
       <div class="slides fade">
         <img class = "slide-image" src="/assets/indexImages/index_slideshow_1.jpg" 
-          alt= "Image of theme park in the daytime"
-        >
+          alt= "Image of theme park in the daytime">
       </div>
 
       <div class="slides fade">
         <img class = "slide-image" src="/assets/indexImages/index_slideshow_2.jpg"
-          alt="Image of theme park at night"
-        >
+          alt="Image of theme park at night">
       </div>
 
       <div class="slides fade">
         <img class = "slide-image" src="/assets/indexImages/index_slideshow_3.jpg" 
-          alt = "Image of theme park"
-        >
+          alt = "Image of theme park">
       </div>
       <div id = "prev-next-container">
         <!-- Slide navigation buttons -->
@@ -117,43 +113,42 @@
   <!-- Div class section3 containing 4 images of the CS history museum and meet the stars attractions, about text, and a link to booking-->
   <div class="sec" id = "sec3"> 
     <!-- Images of museum & meet the stars -->
-    <div class="Museum_Stars_Images">     
-      <img src="/assets/attractions/lispMachine_cs_history.jpeg"
-        alt="An image of a lisp machine">
-          
-      <img src="/assets/attractions/univac_cs_history.jpeg"
-        alt="An image of a UNIVAC">
-          
-      <img src="/assets/attractions/hortonTypeWriter_cs_history.jpeg"
-        alt="An image of a Horton typewriter">
-          
-      <img src="/assets/attractions/r2d2C3po_celebrity_machines.jpeg"
-        alt="An image of R2-D2 and C-3PO from Star Wars">
+    <div class="Museum_Stars_Images">
+      <div id="top-mus-imgs">
+        <img src="/assets/attractions/lispMachine_cs_history.jpeg"
+          alt="An image of a lisp machine">
+        <img src="/assets/attractions/univac_cs_history.jpeg"
+          alt="An image of a UNIVAC">
       </div>
-      <!-- Some information about the CS Museum and meet the stars -->
+      <div class="bottom-mus-imgs">
+        <img src="/assets/attractions/hortonTypeWriter_cs_history.jpeg"
+          alt="An image of a Horton typewriter">
+        <img src="/assets/attractions/r2d2C3po_celebrity_machines.jpeg"
+          alt="An image of R2-D2 and C-3PO from Star Wars">
+      </div>   
+    </div>
+    <!-- Some information about the CS Museum and meet the stars -->
+    <div class="sec-about-container">
       <div class="sec3_about">
-        <h3>Museum and Meet the Stars!</h3>
-        <p>Take a tour through the Museum of Computer Science History. This is home to many of the invaluable inventions that pioneered the development of computers and the way we use technology today.</p>
-        <p>As part of our tour, we invite guests to come meet the stars of technology- Spend time with some of the legendary machines from pop culture, including C-3PO, R2-D2, WALL-E, HAL 9000 and more!</p>
+        <h3 class="general-text">Museum and Meet the Stars!</h3>
+        <p class="general-text">Take a tour through the Museum of Computer Science History. This is home to many of the invaluable inventions that pioneered the development of computers and the way we use technology today.</p>
+        <p class="general-text">As part of our tour, we invite guests to come meet the stars of technology- Spend time with some of the legendary machines from pop culture, including C-3PO, R2-D2, WALL-E, HAL 9000 and more!</p>
+        </div>
+        <!-- Button for booking tickets-->
+        <div class="sec1button" id="ticketsbutton">
+        <a class="button" href="/ticketing.html">Book tickets now!</a>   
       </div>
-    <!-- Button for booking tickets-->
-    <div class="sec1button" id="ticketsbutton">
-      <a class="button" href="/ticketing.html">Book tickets now!</a>   
     </div>
   </div>
 
 
   <!-- Div class section4 containing an image of the theme park, some text about COVID protocols, a link to learn more about COVID protocols -->
   <div class="sec" id = "sec4">
-    <!-- Image of people walking around CS Park -->
-    <div class="covid_img">
-      <img src="/assets/attractions/themepark_covid.jpg"
-        alt="An image of people walkign around a theme park">
-    </div>
     <!-- COVID safety guidelines that we are implementing in the park-->
+    <div class="sec-about-container" id="sac4">
     <div class="sec4_about">
-      <h3>COVID Safety</h3>
-      <p>We are committed to upholding all COVID-19 safety guidlines for the protection of our guests. All staff are required to wear face masks and disposable gloves at all times. We invite our guests to do the same.A small bottle of hand sanitizer also is provided to all guests upon entry. Addiontally, there are hand sanitization stations set up at several areas around the park.</p>
+      <h3 class="general-text">COVID Safety</h3>
+      <p class="general-text">We are committed to upholding all COVID-19 safety guidlines for the protection of our guests. All staff are required to wear face masks and disposable gloves at all times. We invite our guests to do the same. A small bottle of hand sanitizer also is provided to all guests upon entry. Addiontally, there are hand sanitization stations set up at several areas around the park.</p>
     </div>
     <!-- A button to learn more about covid safety guidelines-->
     <div class="sec4button" id="covidbutton">
@@ -162,6 +157,12 @@
     <!--A link to FAQs -->
     <div class="faqbutton" id="faqbutton">
       <a class="button" href="/faq.html">FAQs</a>
+    </div>
+  </div>
+    <!-- Image of people walking around CS Park -->
+    <div class="covid_img">
+      <img src="/assets/attractions/themepark_covid.jpg"
+        alt="An image of people walkign around a theme park">
     </div>
   </div>
 
