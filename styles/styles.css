@@ -42,19 +42,19 @@ ul {
     padding: 0;
 }
 
-li {
+#navlink{
     display: block;
     padding: 25px 25px;
     width: 100px;
     text-align: center;
 }
 
-li a {
+#navlink a {
     display: block;
     width: 100px;
 }
 
-li:hover {
+#navlink:hover {
     background-color: rgba(119, 191, 226, 1);
     cursor: pointer;
 }
@@ -160,8 +160,13 @@ img {
     border: 2px solid mintcream;
 }
 
-.dropdown:hover .dropdown-content{
+.navdrop:hover .dropdown-content{
     display: block;
+}
+
+[class$="DropdownContent"] {
+    display: none;     
+    z-index: 1; 
 }
 
 .dropdown-content {
@@ -177,7 +182,21 @@ img {
     z-index: 2;
 }
 
-a.button {
+.dayDropdown:hover .dayDropdownContent{
+    display: block;
+}
+
+.wkndDropdown:hover .wkndDropdownContent{
+    display: block;
+}
+
+.sznDropdown:hover .seasonDropdownContent{
+    display: block;
+}
+
+
+
+a.button, .purchasebutton, [class$="dropbutton"] {
     display: flex;
     letter-spacing: 1.5px;
     width: 50%;

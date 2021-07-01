@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="robots" content="all">
-        <meta name="creator" content="cm1040 Team 56">
-        <meta name="audience" content="cm1040 students">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="This is an imaginary ticketing page for the amusement park">
-        <meta name="keywords" content="Amusement Park, Computer Science, CS Park, Tickets, Ticketing">
-        <!--will fill out base href once i understand directory structure of project-->
-        <base href="" target="_blank">
-        <link rel="stylesheet" href="./styles/styles.css" type="text/css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-        <title>CS Park: Ticketing</title>
-    </head>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="all">
+    <meta name="creator" content="cm1040 Team 56">
+    <meta name="audience" content="cm1040 students">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an imaginary ticketing page for the amusement park">
+    <meta name="keywords" content="Amusement Park, Computer Science, CS Park, Tickets, Ticketing">
+    <!--will fill out base href once i understand directory structure of project-->
+    <base href="" target="_blank">
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <title>CS Park: Ticketing</title>
+</head>
+
+<body>
+    <!-- Header that includes links to other pages. This may be copied and pasted in other pages. -->
+
     <body>
         <!-- Header that includes links to other pages. This may be copied and pasted in other pages. -->
-        <body>
-            <!-- Header that includes links to other pages. This may be copied and pasted in other pages. -->
-            <header class="header">
-                <!-- Container includes links for hours, attractions, ticketing -->
-                <div class="logo-container">
-                  <!--Image tag for the logo, which is a link to index.html-->
-                  <a href="/index.html">
-                    <img src="./assets/CSP.jpeg" alt="CS Park logo" width="200" style="border-radius: 2%;">
-                  </a>
-                </div>
-                <div class="tagline">
-                  <h1>TIME TO DOWNLOAD SOME FUN!!!!</h1>
-                </div>
-                <!-- navigation sub-header -->
-                <nav>
-                  <ul>
-                    <li class="dropdown">
-                     <a class="dropbtn" href="#">Hours</a>
-                      <div class="dropdown-content">
-                       <p class="general-text">Weekdays: 9 AM to 9 PM </p>
-                       <p class="general-text">Weekends: 10 AM to 11 PM </p>
-                      </div>
-                    </li>
-                    <li>
-                      <a class="navbtn" href="./attractions.html">Explore</a>
-                    </li>
-                    <li>
-                      <a class="navbtn" href="/ticketing.html">Bookings</a>
-                    </li>
-                  </ul>
-                </nav>
-              </header>
+        <header class="header">
+            <!-- Container includes links for hours, attractions, ticketing -->
+            <div class="logo-container">
+              <!--Image tag for the logo, which is a link to index.html-->
+              <a href="/index.html">
+                <img src="./assets/CSP.jpeg" alt="CS Park logo" width="200" style="border-radius: 2%;">
+              </a>
+            </div>
+            <div class="tagline">
+              <h1>TIME TO DOWNLOAD SOME FUN!!!!</h1>
+            </div>
+            <!-- navigation sub-header -->
+            <nav>
+              <ul>
+                <li id="navlink" class="navdrop">
+                 <a class="dropbtn" href="#">Hours</a>
+                  <div class="dropdown-content">
+                   <p class="general-text">Weekdays: 9 AM to 9 PM </p>
+                   <p class="general-text">Weekends: 10 AM to 11 PM </p>
+                  </div>
+                </li>
+                <li id="navlink">
+                  <a class="navbtn" href="./attractions.html">Explore</a>
+                </li>
+                <li id="navlink">
+                  <a class="navbtn" href="/ticketing.html">Bookings</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
 
         <h2 class="pagetitle">Book Your Tickets Now!</h2>
-    
+
         <!-- Maybe it's a good idea to put this in a container to make it easier to style the layout later on-->
         <!-- Container for ticket Category 1: Day Pass -->
         <div id="daypass">
@@ -62,9 +66,9 @@
             <div id="daypasstext">
                 <p>Grants one full day of park access</p>
             </div>
-            <div class="dropdown">
-                <button onclick="dropFunction()" class="dropbtn">Learn more:</button>
-                <div id="dayDropdown" class="dayDropdownContent">
+            <div class="dayDropdown">
+                <button class="daydropbutton">Learn more:</button>
+                <div class="dayDropdownContent">
                     <ul>
                         <li>Entrance to all park areas</li>
                         <li>Full access to standard rides</li>
@@ -74,7 +78,7 @@
                 </div>
             </div>
             <div class="passpurchase">
-                <button class="btnpurchase">Purchase for only $19.99!</button>
+                <button class="purchasebutton">Purchase for only $19.99!</button>
             </div>
         </div>
         <!-- Container for ticket Category 2: Weekend Pass -->
@@ -85,9 +89,9 @@
             <div id="wkndpasstext">
                 <p>Grants 48 hours of park access</p>
             </div>
-            <div class="dropdown">
-                <button onclick="dropFunction()" class="dropbtn">Learn more:</button>
-                <div id="wkndDropdown" class="wkndDropdownContent">
+            <div class="wkndDropdown">
+                <button class="wkndropbutton">Learn more:</button>
+                <div class="wkndDropdownContent">
                     <ul>
                         <li>Entrance to all park areas</li>
                         <li>Access to all rides</li>
@@ -98,7 +102,7 @@
                 </div>
             </div>
             <div class="passpurchase">
-                <button class="btnpurchase">Purchase for only $34.99!</button>
+                <button class="purchasebutton">Purchase for only $34.99!</button>
             </div>
         </div>
         <!-- Container for ticket Category 3: Season Pass -->
@@ -109,48 +113,49 @@
             <div id="sznpasstext">
                 <p>Grants unlimited access to the park for 3 months</p>
             </div>
-            <div class="dropdown">
-                <button onclick="dropFunction()" class="dropbtn">Learn more:</button>
-                <div id="seasonDropdown" class="seasonDropdownContent">
+            <div class="sznDropdown">
+                <button class="szndropbutton">Learn more:</button>
+                <div class="seasonDropdownContent">
                     <ul>
-                    <li>Unlimited visits for the whole 2021 Season</li>
-                    <li>Entrance to all park areas</li>
-                    <li>Access to exclusive rides</li>
-                    <li>Discounted meal at select in-park eateries</li>
-                    <li>FastTrack access to rides - no more queues!</li>
-                    <li>Exclusive summer deals to Season Pass holders only</li>
+                        <li>Unlimited visits for the whole 2021 Season</li>
+                        <li>Entrance to all park areas</li>
+                        <li>Access to exclusive rides</li>
+                        <li>Discounted meal at select in-park eateries</li>
+                        <li>FastTrack access to rides - no more queues!</li>
+                        <li>Exclusive summer deals to Season Pass holders only</li>
                     </ul>
                 </div>
             </div>
             <div class="passpurchase">
-                <button class="btnpurchase">Purchase for only $99.99!</button>
+                <button class="purchasebutton">Purchase for only $99.99!</button>
             </div>
         </div>
         <!-- Container for footer -->
         <footer class="footer">
             <div class="container" id="footer-data-container">
-              <!-- h tags shall be converted into a tags if we create the pages -->
-              <div class="footer-col" id="footer-col-1">
-                <h4>My Account</h4>
-                <p>Sign In</p>
-                <p>Register</p>
-              </div>
-              <div class="footer-col" id="footer-col-2">
-                <h4>Our Story</h4>
-                <p>Media</p>
-                <p>About Us</p>
-              </div>
-              <div class="footer-col" id="footer-col-3">
-                <h4>Legal</h4>
-                <p>Terms of Use</p>
-                <p>Privacy Policy</p>
-              </div>
-              <div class="footer-col" id="footer-col-social">
-                <a href=""><img src="/assets/f_logo.png" alt="facebook logo" height=50 width=50></a>
-                <a href=""><img src="/assets/ig_logo.png" alt="instagram logo" height=50 width=50></a>
-                <a href=""><img src="/assets/t_logo.png" alt="twitter logo" height=50 width=50></a>
-              </div>
+                <!-- h tags shall be converted into a tags if we create the pages -->
+                <div class="footer-col" id="footer-col-1">
+                    <h4>My Account</h4>
+                    <p>Sign In</p>
+                    <p>Register</p>
+                </div>
+                <div class="footer-col" id="footer-col-2">
+                    <h4>Our Story</h4>
+                    <p>Media</p>
+                    <p>About Us</p>
+                </div>
+                <div class="footer-col" id="footer-col-3">
+                    <h4>Legal</h4>
+                    <p>Terms of Use</p>
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="footer-col" id="footer-col-social">
+                    <a href=""><img src="/assets/f_logo.png" alt="facebook logo" height=50 width=50></a>
+                    <a href=""><img src="/assets/ig_logo.png" alt="instagram logo" height=50 width=50></a>
+                    <a href=""><img src="/assets/t_logo.png" alt="twitter logo" height=50 width=50></a>
+                </div>
             </div>
-          </footer>
+        </footer>
     </body>
+
 </html>
