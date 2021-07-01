@@ -12,24 +12,51 @@ header {
     width: 100%;
     display: flex; 
     flex-direction: row;
-    justify-content: space-evenly; 
+    justify-content: space-between; 
     flex-wrap: nowrap;
     align-items: flex-end;
     background-color: rgba(252, 231, 134, 0.7);
+}
+
+#logo-container {
+    align-self: center;
 }
 
 .tagline {
     align-self: center;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-start;
+/* Nav Bar Styling */
+
+nav {
+    background-color: rgba(119, 190, 226, 0.5);
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
 }
 
-#logo-container {
-    padding: 20px 20px 20px 20px;
+ul {
+    list-style-type: none;
+    width: 25%;
+    height: 100%;
+    padding: 0;
+}
+
+li {
+    display: block;
+    padding: 25px 25px;
+    width: 100px;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    width: 100px;
+}
+
+li:hover {
+    background-color: rgba(119, 191, 226, 1);
+    cursor: pointer;
 }
 
 .general-text {
@@ -37,15 +64,6 @@ ul {
     line-height: 35px;
 }
 
-nav {
-    padding: 20px 10px 15px 0px; 
-    background-color: rgba(252, 231, 134, 0.5);
-    border-width: 2px;
-    border-style: inset;
-    border-radius: 5px; 
-    width: auto;
-    height: 55px;
-}
 
 /* Body and content styling */
 
@@ -135,16 +153,6 @@ img {
 
 /* Button and link styling */
 
-.navbutton,
-.btnpurchase,
-.dropbtn {
-    background-color: rgba(119, 190, 226, 0.5);
-    padding: 25px 25px 25px 25px;
-    border-radius: 15px/30px;
-    border-color: rgba(255, 255, 255);
-    border-style: inset;
-}
-
 [class$="button"]:hover {
     background-color: rgba(119, 191, 226, 1);
     cursor: pointer;
@@ -159,7 +167,8 @@ img {
 .dropdown-content {
     display: none;
     position: absolute;
-    top: 225px;
+    top: 245px;
+    right: 0px;
     background-color: rgba(119, 190, 226, 1);
     border-radius: 5px;
     min-width: 160px;
