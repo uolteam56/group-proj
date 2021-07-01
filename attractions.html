@@ -1,138 +1,112 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="robots" content="all" />
-        <meta name="creator" content="cm1040 Team 56" />
-        <meta name="audience" content="cm1040 students" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-            name="description"
-            content="This is the attractions page an imaginary Computer-Science-themed amusement park with tables describing different rides."
-        />
-        <meta
-            name="keywords"
-            content="Amusement Park, Computer Science, CS Park, Attractions"
-        />
-        <link rel="stylesheet" href="./styles/styles.css" type="text/css">
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Ubuntu:wght@300&display=swap"
-            rel="stylesheet"
-        />
-        <script src="slider.js"></script> 
-        <title>CS Park Attractions</title>
-    </head>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="all" />
+    <meta name="creator" content="cm1040 Team 56" />
+    <meta name="audience" content="cm1040 students" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="This is the attractions page an imaginary Computer-Science-themed amusement park with tables describing different rides." />
+    <meta name="keywords" content="Amusement Park, Computer Science, CS Park, Attractions" />
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet" />
+    <script src="slider.js"></script>
+    <title>CS Park Attractions</title>
+</head>
+
+<body>
+    <!-- Header that includes links to other pages. This may be copied and pasted in other pages. -->
 
     <body>
         <!-- Header that includes links to other pages. This may be copied and pasted in other pages. -->
-        <body>
-            <!-- Header that includes links to other pages. This may be copied and pasted in other pages. -->
-            <header class="header">
-                <!-- Container includes links for hours, attractions, ticketing -->
-                <div class="logo-container">
-                  <!--Image tag for the logo, which is a link to index.html-->
-                  <a href="/index.html">
-                    <img src="./assets/CSP.jpeg" alt="CS Park logo" width="200" style="border-radius: 2%;">
-                  </a>
-                </div>
-                <div class="tagline">
-                  <h1>TIME TO DOWNLOAD SOME FUN!!!!</h1>
-                </div>
-                <!-- navigation sub-header -->
-                <nav>
-                  <ul>
-                    <li id="navlink" class="navdrop">
-                     <a class="dropbtn" href="#">Hours</a>
-                      <div class="dropdown-content">
-                       <p class="general-text">Weekdays: 9 AM to 9 PM </p>
-                       <p class="general-text">Weekends: 10 AM to 11 PM </p>
-                      </div>
-                    </li>
-                    <li id="navlink">
-                      <a class="navbtn" href="./attractions.html">Explore</a>
-                    </li>
-                    <li id="navlink">
-                      <a class="navbtn" href="/ticketing.html">Bookings</a>
-                    </li>
-                  </ul>
-                </nav>
-              </header>
+        <header class="header">
+            <!-- Container includes links for hours, attractions, ticketing -->
+            <div class="logo-container">
+              <!--Image tag for the logo, which is a link to index.html-->
+              <a href="/index.html">
+                <img id="logo" src="./assets/CSP.jpeg" alt="CS Park logo" style="border-radius: 2%;">
+              </a>
+            </div>
+            <div class="tagline">
+              <h1>TIME TO DOWNLOAD SOME FUN!!!!</h1>
+            </div>
+            <!-- navigation sub-header -->
+            <nav>
+              <ul>
+                <li id="navlink" class="navdrop">
+                  <a class="dropbtn" href="#">Hours</a>
+                  <div class="dropdown-content">
+                    <p class="general-text">Weekdays: 9 AM to 9 PM </p>
+                    <p class="general-text">Weekends: 10 AM to 11 PM </p>
+                  </div>
+                </li>
+                <li id="navlink">
+                  <a class="navbtn" href="./attractions.html">Explore</a>
+                </li>
+                <li id="navlink">
+                  <a class="navbtn" href="/ticketing.html">Bookings</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
 
-        <div class="container" id="attractions">
-            <h2 class="pagetitle">Attractions</h2>
+        <div class="attractions-container">
+            <div class="slider-container">
+            <h2 class="pagetitle" style="text-align: center;">Attractions</h2>
             <!-- Slider for ride height -->
-        <!-- Filters attractions by height input taken from visitor -->
-        <!-- Browser language test to switch between imperial & metric units -->
+            <!-- Filters attractions by height input taken from visitor -->
+            <!-- Browser language test to switch between imperial & metric units -->
 
-        <!-- Slider for metric system -->
-        <div class="sliderMetric" id="sliderMetric" style="display: flex">
-            <p>Filter by minimum height:</p>
-            <input
-                type="range"
-                id="metricHeight"
-                name="metricHeight"
-                list="metricTickmarks"
-                min="90"
-                max="150"
-                step="2.5"
-                value="110"
-                oninput="result.value=metricHeight.value;
-                slideAction(metricHeight.value)"
-            />
-            <output id="result" name="result" for="metricHeight">100 </output> cm
-        </div>
+            <!-- Slider for metric system -->
+            <div class="sliderMetric" id="sliderMetric" style="display: flex">
+                <p>Filter by minimum height:</p>
+                <input type="range" id="metricHeight" name="metricHeight" list="metricTickmarks" min="90" max="150"
+                    step="2.5" value="110"
+                    oninput="result.value=metricHeight.value;
+                    slideAction(metricHeight.value)"/>
+                <output id="result" name="result" for="metricHeight">100 </output> cm
+            </div>
 
-        <!-- Slider for imperial system -->
-        <div class="sliderImperial" id="sliderImperial" style="display: none">
-            <p>Filter by minimum height:</p>
-            <input
-                type="range"
-                id="usHeight"
-                name="usHeight"
-                list="usTickmarks"
-                min="92"
-                max="153"
-                value="122.5"
-                oninput="usResult.value=`${Math.floor(usHeight.value/30.48)}' ${Math.floor(usHeight.value/2.54)%12}`;
-                slideAction(usHeight.value)"
-            />
-            <output id="usResult" name="usResult" for="usHeight"
-                >4&#39; 0</output
-            >&#8220;
-            <datalist id="usTickmarks">
-                <option value="92" label="3&#39;"></option>
-                <option value="100" label='3&#39;4"'></option>
-                <option value="110" label='3&#39;8"'></option>
-                <option value="120" label="4&#39;"></option>
-                <option value="130" label='4&#39;4"'></option>
-                <option value="140" label='4&#39;8"'></option>
-                <option value="153" label="5&#39;+"></option>
-            </datalist>
-        </div>
+            <!-- Slider for imperial system -->
+            <div class="sliderImperial" id="sliderImperial" style="display: none">
+                <p>Filter by minimum height:</p>
+                <input type="range" id="usHeight" name="usHeight" list="usTickmarks" min="92" max="153" value="122.5"
+                    oninput="usResult.value=`${Math.floor(usHeight.value/30.48)}' ${Math.floor(usHeight.value/2.54)%12}`;
+                    slideAction(usHeight.value)" />
+                <output id="usResult" name="usResult" for="usHeight">4&#39; 0</output>&#8220;
+                <datalist id="usTickmarks">
+                    <option value="92" label="3&#39;"></option>
+                    <option value="100" label='3&#39;4"'></option>
+                    <option value="110" label='3&#39;8"'></option>
+                    <option value="120" label="4&#39;"></option>
+                    <option value="130" label='4&#39;4"'></option>
+                    <option value="140" label='4&#39;8"'></option>
+                    <option value="153" label="5&#39;+"></option>
+                </datalist>
+            </div>
+            </div>
 
-        <!-- Script for switching between metric/imperial based on browser language -->
-        <script>
-            const lang = navigator.language;
-            if (/^en-US\b/.test(lang)) {
-                document.getElementById("sliderImperial").style.display =
-                    "block";
-                document.getElementById("sliderMetric").style.display = "none";
-            }
-        </script>
-
-        <br>
-
+            <!-- Script for switching between metric/imperial based on browser language -->
+            <script>
+                const lang = navigator.language;
+                if (/^en-US\b/.test(lang)) {
+                    document.getElementById("sliderImperial").style.display =
+                        "block";
+                    document.getElementById("sliderMetric").style.display = "none";
+                }
+            </script>
 
             <div class="attraction" id="at1">
                 <!-- Name of attraction, image of attraction and a brief description-->
                 <h3>Fractal Land</h3>
 
-                <img
-                    src="/assets/attractions/fractalModels_fractal_land.jpeg"
-                    alt="Image of the output of a person's mirror reflection distorted using fractals"
-                />
+                <img src="/assets/attractions/fractalModels_fractal_land.jpeg"
+                    alt="Image of the output of a person's mirror reflection distorted using fractals" />
 
                 <p><em>Experience an ever-changing gallery</em></p>
                 <p>
@@ -144,18 +118,14 @@
 
                 <p>
                     Immerse yourself in these works using our fractal mirror,
-                    which uses your own reflection to create a one of a kind art
+                    which uses your own reflection to create a one-of-a-kind art
                     piece to treasure.
                 </p>
             </div>
 
             <div class="attraction" id="at2">
-                <h3>Museum and Meet the Stars!</h3
-                >
-                <img
-                    src="/assets/attractions/lispMachine_cs_history.jpeg"
-                    alt="An image of a lisp machine"
-                />
+                <h3>Museum and Meet the Stars!</h3>
+                <img src="/assets/attractions/lispMachine_cs_history.jpeg" alt="An image of a lisp machine" />
 
                 <p>
                     Take a tour through the Museum of Computer Science History.
@@ -172,17 +142,22 @@
             </div>
 
             <div class="attraction" id="at3">
-                <!-- Name of attraction, image of attraction and a brief description-->
                 <h3>Virtual Reality</h3>
-                <img
-                    src="/assets/attractions/vr_immerse_2.jpeg"
-                    alt="Patron enjoying virtual reality experience"
-                />
-                <!-- Description that will make the customer more likely to buy a ticket-->
+                <img src="/assets/attractions/vr_immerse_2.jpeg" alt="Patron enjoying virtual reality experience" />
                 <p>
                     Choose one of our many virtual reality games to play
                     singleplayer or with friends. Play your favourite first
                     person shooter games with all-new VR technology.
+                </p>
+            </div>
+
+            <div class="attraction" id="at4">
+                <h3>Meet the Stars!</h3>
+                <img src="/assets/attractions/eniac.jpg" alt="Technician working on a room-sized computer"/>
+                <p>
+                    Meet and interface with legendary machines
+                    from HAL 9000 to ENIAC to a working Turing Machine!
+                    Log in and have fun! 
                 </p>
             </div>
         </div>
@@ -190,28 +165,29 @@
 
         <footer class="footer">
             <div class="container" id="footer-data-container">
-              <!-- h tags shall be converted into a tags if we create the pages -->
-              <div class="footer-col" id="footer-col-1">
-                <h4>My Account</h4>
-                <p>Sign In</p>
-                <p>Register</p>
-              </div>
-              <div class="footer-col" id="footer-col-2">
-                <h4>Our Story</h4>
-                <p>Media</p>
-                <p>About Us</p>
-              </div>
-              <div class="footer-col" id="footer-col-3">
-                <h4>Legal</h4>
-                <p>Terms of Use</p>
-                <p>Privacy Policy</p>
-              </div>
-              <div class="footer-col" id="footer-col-social">
-                <a href=""><img src="/assets/f_logo.png" alt="facebook logo" height=50 width=50></a>
-                <a href=""><img src="/assets/ig_logo.png" alt="instagram logo" height=50 width=50></a>
-                <a href=""><img src="/assets/t_logo.png" alt="twitter logo" height=50 width=50></a>
-              </div>
+                <!-- h tags shall be converted into a tags if we create the pages -->
+                <div class="footer-col" id="footer-col-1">
+                    <h4>My Account</h4>
+                    <p>Sign In</p>
+                    <p>Register</p>
+                </div>
+                <div class="footer-col" id="footer-col-2">
+                    <h4>Our Story</h4>
+                    <p>Media</p>
+                    <p>About Us</p>
+                </div>
+                <div class="footer-col" id="footer-col-3">
+                    <h4>Legal</h4>
+                    <p>Terms of Use</p>
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="footer-col" id="footer-col-social">
+                    <a href=""><img src="/assets/f_logo.png" alt="facebook logo" height=50 width=50></a>
+                    <a href=""><img src="/assets/ig_logo.png" alt="instagram logo" height=50 width=50></a>
+                    <a href=""><img src="/assets/t_logo.png" alt="twitter logo" height=50 width=50></a>
+                </div>
             </div>
-          </footer>
+        </footer>
     </body>
+
 </html>
