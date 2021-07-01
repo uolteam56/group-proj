@@ -18,28 +18,38 @@
     </head>
     <body>
         <!-- Header that includes links to other pages. This may be copied and pasted in other pages. -->
-        <header class="header">
-            <div id = 'header-data-container'>
-                <!-- Container includes links for hours, attractions, ticketing -->
-                <div id = "logo-container">
-                    <div id="logo">
-                        <!--Image tag for the logo, which is a link to index.html-->
-                        <a href="/index.html">Logo</a>
+        <body>
+            <!-- Header that includes links to other pages. This may be copied and pasted in other pages. -->
+            <header class="header">
+              <!-- Container includes links for hours, attractions, ticketing -->
+              <div class="logo-container">
+                <!--Image tag for the logo, which is a link to index.html-->
+                <a href="/index.html">
+                  <img src="./assets/CSP.jpeg" alt="CS Park logo" width="200" style="border-radius: 2%;">
+                </a>
+              </div>
+              <div class="tagline">
+                <h1>TIME TO DOWNLOAD SOME FUN!!!!</h1>
+              </div>
+              <!-- navigation sub-header -->
+              <nav>
+                <ul>
+                  <li class="dropdown">
+                   <a class="dropbtn" href="#">Hours</a>
+                    <div class="dropdown-content">
+                     <p class="general-text">Weekdays: 9 AM to 9 PM </p>
+                     <p class="general-text">Weekends: 10 AM to 11 PM </p>
                     </div>
-                </div>
-                <div id="navbar-container">
-                    <div class="headerbutton" id="hoursbutton">
-                        <a class="button button-text" href="/hours.html">Hours</a>
-                    </div>
-                    <div class="headerbutton" id="explorebutton">
-                        <a class="button button-text" href="/attractions.html">Explore</a>
-                    </div>
-                    <div class="headerbutton" id="ticketsbutton">
-                        <a class="button button-text" href="/ticketing.html">Bookings</a>
-                    </div>
-                </div>
-            </div>
-        </header>
+                  </li>
+                  <li>
+                    <a class="navbutton" href="./attractions.html">Explore</a>
+                  </li>
+                  <li>
+                    <a class="navbutton" href="/ticketing.html">Bookings</a>
+                  </li>
+                </ul>
+              </nav>
+            </header>
 
         <h2 class="pagetitle">Book Your Tickets Now!</h2>
     

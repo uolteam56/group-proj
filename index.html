@@ -13,164 +13,160 @@
   <meta name="keywords" content="Amusement Park, Computer Science, CS Park">
   <link rel="stylesheet" href="./styles/styles.css" type="text/css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
   <title>CS Park</title>
   <!-- jquery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
   <!-- Header that includes links to other pages. This may be copied and pasted in other pages. -->
   <header class="header">
-    <div id = 'header-data-container'>
-      <!-- Container includes links for hours, attractions, ticketing -->
-      <div id = "logo-container">
-        <div id="logo">
-          <!--Image tag for the logo, which is a link to index.html-->
-          <a href="/index.html">Logo</a>
-        </div>
-      </div>
-      <div id="navbar-container">
-        <div class="dropbtn" id="hoursbutton">
-          <p class="button button-text " >Hours</p>
-          <div class = "dropdown-content">
-            
-            <li class = "general-text">Weekdays: xAM to yPM
-            </li>
-            <li class = "general-text">Weekends: zAM to wPM
-            </li>
-            
-          </div>
-        </div>
-        <div class="headerbutton" id="explorebutton">
-          <a class="button button-text" href="/attractions.html">Explore</a>
-        </div>
-        <div class="headerbutton" id="ticketsbutton">
-          <a class="button button-text" href="/ticketing.html">Bookings</a>
-        </div>
-      </div>
+    <!-- Container includes links for hours, attractions, ticketing -->
+    <div class="logo-container">
+      <!--Image tag for the logo, which is a link to index.html-->
+      <a href="/index.html">
+        <img src="./assets/CSP.jpeg" alt="CS Park logo" width="200" style="border-radius: 2%;">
+      </a>
     </div>
+    <div class="tagline">
+      <h1>TIME TO DOWNLOAD SOME FUN!!!!</h1>
+    </div>
+    <!-- navigation sub-header -->
+    <nav>
+      <ul>
+        <li class="dropdown">
+         <a class="dropbtn" href="#">Hours</a>
+          <div class="dropdown-content">
+           <p class="general-text">Weekdays: 9 AM to 9 PM </p>
+           <p class="general-text">Weekends: 10 AM to 11 PM </p>
+          </div>
+        </li>
+        <li>
+          <a class="navbutton" href="./attractions.html">Explore</a>
+        </li>
+        <li>
+          <a class="navbutton" href="/ticketing.html">Bookings</a>
+        </li>
+      </ul>
+    </nav>
   </header>
-  
+
   <!--div class section1 containing a slideshow of some park images, information about the park, and a link to booking-->
-  <div class="sec" id = "sec1">
+  <div class="sec" id="sec1">
     <!-- Image carousel/slide show -->
     <div class="slideshow-container">
       <!-- Images with number and caption text -->
       <div class="slides fade">
-        <img class = "slide-image" src="/assets/indexImages/index_slideshow_1.jpg" 
-          alt= "Image of theme park in the daytime">
+        <img class="slide-image" src="/assets/indexImages/index_slideshow_1.jpg"
+          alt="Image of theme park in the daytime">
       </div>
 
       <div class="slides fade">
-        <img class = "slide-image" src="/assets/indexImages/index_slideshow_2.jpg"
-          alt="Image of theme park at night">
+        <img class="slide-image" src="/assets/indexImages/index_slideshow_2.jpg" alt="Image of theme park at night">
       </div>
 
       <div class="slides fade">
-        <img class = "slide-image" src="/assets/indexImages/index_slideshow_3.jpg" 
-          alt = "Image of theme park">
+        <img class="slide-image" src="/assets/indexImages/index_slideshow_3.jpg" alt="Image of theme park">
       </div>
-      <div id = "prev-next-container">
+      <div id="prev-next-container">
         <!-- Slide navigation buttons -->
         <a class="prev" onclick="nextSlide(-1)">&#10094;</a>
         <a class="next" onclick="nextSlide(1)">&#10095;</a>
       </div>
     </div>
-    
-    <div class = sec-about-container>
-      <!--Contains some information about the park, embedded links to attractions and booking-->   
-      <div id = "sec1_about">  
+
+    <div class=sec-about-container>
+      <!--Contains some information about the park, embedded links to attractions and booking-->
+      <div id="sec1_about">
         <h3>The CS Park</h3>
-        <p class = "general-text">Welcome to the Computer Science Theme Park! Hosting traditional <a href="/attractions.html">amusement park rides</a> for all the thrill lovers out there along with historical and educational attractions, there is something here for everyone! With such a variety of features, we are truly the first of our kind. Please take a tour through our extensive array of activities and make sure to <a href="/ticketing.html">book tickets</a> in advance!</p>   
+        <p class="general-text">Welcome to the Computer Science Theme Park! Hosting traditional <a
+            href="/attractions.html">amusement park rides</a> for all the thrill lovers out there along with historical
+          and educational attractions, there is something here for everyone! With such a variety of features, we are
+          truly the first of our kind. Please take a tour through our extensive array of activities and make sure to <a
+            href="/ticketing.html">book tickets</a> in advance!</p>
       </div>
       <!--Button for booking tickets -->
-      <div class="sec1button" id="ticketsbutton">
-        <a class="button" href="/ticketing.html">Book tickets now!</a>
-      </div> 
+      <a class="button" href="/ticketing.html">Book tickets now!</a>
     </div>
   </div>
 
 
   <!-- Div class section2 containing 2 images for fractal land, about text, link to booking-->
-  <div class= "sec" id = "sec2">
+  <div class="sec" id="sec2">
     <!-- Image of fractal model and fractal mirror -->
     <div class="fractal-land-images">
-      <img id = "fractal-1" src="/assets/attractions/fractalModels_fractal_land.jpeg" 
+      <img id="fractal-1" src="/assets/attractions/fractalModels_fractal_land.jpeg"
         alt="Image of computer generated fractal model">
-        
-      <img id = "fractal-2" src="/assets/attractions/fractalMirror_fractal_land.jpeg"
+
+      <img id="fractal-2" src="/assets/attractions/fractalMirror_fractal_land.jpeg"
         alt="Image of the output of a person's mirror reflection distorted using fractals">
     </div>
     <!-- Some information about fractal land-->
-    <div class = sec-about-container>
-      <div id ="sec2_about">
-        <h3 class = general-text>Fractal Land</h3>
-        <p class = general-text><em>Experience an ever-changing gallery</em></p>
-        <p class = general-text>Fractals are complex patterns characterized by repeated simple processes that repeat an infinite number of times. Here, we harness this concept to provide a spectacle of constantly evolving art.</p>     
-        <p class = general-text>Immerse yourself in these works using our fractal mirror, which uses your own reflection to create a one of a kind art piece to treasure.</p>
+    <div class=sec-about-container>
+      <div id="sec2_about">
+        <h3 class=general-text>Fractal Land</h3>
+        <p class=general-text><em>Experience an ever-changing gallery</em></p>
+        <p class=general-text>Fractals are complex patterns characterized by repeated simple processes that repeat an
+          infinite number of times. Here, we harness this concept to provide a spectacle of constantly evolving art.</p>
+        <p class=general-text>Immerse yourself in these works using our fractal mirror, which uses your own reflection
+          to create a one of a kind art piece to treasure.</p>
       </div>
-      <div class="sec1button" id="ticketsbutton">
-        <a class="button" href="/ticketing.html">Book tickets now!</a>   
-      </div>
+        <a class="button" href="/ticketing.html">Book tickets now!</a>
     </div>
-    <!--Button for booking tickets -->         
+    <!--Button for booking tickets -->
   </div>
 
-      
+
   <!-- Div class section3 containing 4 images of the CS history museum and meet the stars attractions, about text, and a link to booking-->
-  <div class="sec" id = "sec3"> 
+  <div class="sec" id="sec3">
     <!-- Images of museum & meet the stars -->
     <div class="Museum_Stars_Images">
       <div id="top-mus-imgs">
-        <img src="/assets/attractions/lispMachine_cs_history.jpeg"
-          alt="An image of a lisp machine">
-        <img src="/assets/attractions/univac_cs_history.jpeg"
-          alt="An image of a UNIVAC">
+        <img src="/assets/attractions/lispMachine_cs_history.jpeg" alt="An image of a lisp machine">
+        <img src="/assets/attractions/univac_cs_history.jpeg" alt="An image of a UNIVAC">
       </div>
       <div class="bottom-mus-imgs">
-        <img src="/assets/attractions/hortonTypeWriter_cs_history.jpeg"
-          alt="An image of a Horton typewriter">
+        <img src="/assets/attractions/hortonTypeWriter_cs_history.jpeg" alt="An image of a Horton typewriter">
         <img src="/assets/attractions/r2d2C3po_celebrity_machines.jpeg"
           alt="An image of R2-D2 and C-3PO from Star Wars">
-      </div>   
+      </div>
     </div>
     <!-- Some information about the CS Museum and meet the stars -->
     <div class="sec-about-container">
       <div class="sec3_about">
         <h3 class="general-text">Museum and Meet the Stars!</h3>
-        <p class="general-text">Take a tour through the Museum of Computer Science History. This is home to many of the invaluable inventions that pioneered the development of computers and the way we use technology today.</p>
-        <p class="general-text">As part of our tour, we invite guests to come meet the stars of technology- Spend time with some of the legendary machines from pop culture, including C-3PO, R2-D2, WALL-E, HAL 9000 and more!</p>
-        </div>
-        <!-- Button for booking tickets-->
-        <div class="sec1button" id="ticketsbutton">
-        <a class="button" href="/ticketing.html">Book tickets now!</a>   
+        <p class="general-text">Take a tour through the Museum of Computer Science History. This is home to many of the
+          invaluable inventions that pioneered the development of computers and the way we use technology today.</p>
+        <p class="general-text">As part of our tour, we invite guests to come meet the stars of technology- Spend time
+          with some of the legendary machines from pop culture, including C-3PO, R2-D2, WALL-E, HAL 9000 and more!</p>
       </div>
+      <!-- Button for booking tickets-->
+        <a class="button" href="/ticketing.html">Book tickets now!</a>
     </div>
   </div>
 
 
   <!-- Div class section4 containing an image of the theme park, some text about COVID protocols, a link to learn more about COVID protocols -->
-  <div class="sec" id = "sec4">
+  <div class="sec" id="sec4">
     <!-- COVID safety guidelines that we are implementing in the park-->
     <div class="sec-about-container" id="sac4">
-    <div class="sec4_about">
-      <h3 class="general-text">COVID Safety</h3>
-      <p class="general-text">We are committed to upholding all COVID-19 safety guidlines for the protection of our guests. All staff are required to wear face masks and disposable gloves at all times. We invite our guests to do the same. A small bottle of hand sanitizer also is provided to all guests upon entry. Addiontally, there are hand sanitization stations set up at several areas around the park.</p>
+      <div class="sec4_about">
+        <h3 class="general-text">COVID Safety</h3>
+        <p class="general-text">We are committed to upholding all COVID-19 safety guidlines for the protection of our
+          guests. All staff are required to wear face masks and disposable gloves at all times. We invite our guests to
+          do the same. A small bottle of hand sanitizer also is provided to all guests upon entry. Addiontally, there
+          are hand sanitization stations set up at several areas around the park.</p>
+      </div>
+      <!-- A button to learn more about covid safety guidelines-->
+        <a class="button" href="/COVID.html">Learn more about COVID safety</a>
+      <!--A link to FAQs -->
+        <a class="button" href="/faq.html">FAQs</a>
     </div>
-    <!-- A button to learn more about covid safety guidelines-->
-    <div class="sec4button" id="covidbutton">
-      <a class="button" href="/COVID.html">Learn more about COVID safety</a>   
-    </div>
-    <!--A link to FAQs -->
-    <div class="faqbutton" id="faqbutton">
-      <a class="button" href="/faq.html">FAQs</a>
-    </div>
-  </div>
     <!-- Image of people walking around CS Park -->
     <div class="covid_img">
-      <img src="/assets/attractions/themepark_covid.jpg"
-        alt="An image of people walkign around a theme park">
+      <img src="/assets/attractions/themepark_covid.jpg" alt="An image of people walking around a theme park">
     </div>
   </div>
 
@@ -200,7 +196,7 @@
       </div>
     </div>
   </footer>
-  <script src = 'js/slideShow.js'></script>
+  <script src='js/slideShow.js'></script>
 </body>
 
 </html>
