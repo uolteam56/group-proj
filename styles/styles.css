@@ -402,4 +402,9 @@ footer {
     width: 100%;
     flex-flow: column wrap;
   }
+
+  .dropdown-content {
+      top:525px;
+      right: 25%; 
+  }
 }
