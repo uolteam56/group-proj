@@ -280,7 +280,7 @@ input[type="range"]::-webkit-slider-runnable-track:hover {
 /* footer styling */
 
 footer {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -289,11 +289,11 @@ footer {
 
 #footer-data-container {
   display: flex;
+  flex-direction: row;
   margin-left: auto;
   margin-right: auto;
   padding: 20px 20px 20px 20px;
   width: 90%;
-  flex-direction: row;
   align-items: center;
   justify-content: space-around;
   background-color: rgba(252, 231, 134, 0.1);
@@ -412,4 +412,17 @@ footer {
       top:525px;
       right: 25%; 
   }
-}
+
+  .footer {
+  }
+
+  #footer-data-container {
+      font-size: x-small;
+      background-color: rgba(119, 191, 226, 0.8);
+  }
+
+  .footer-col {
+    background-color: transparent;
+    border-radius: 0px;
+  }
+} 
