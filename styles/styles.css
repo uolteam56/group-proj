@@ -25,6 +25,7 @@ header {
 .tagline {
   align-self: center;
   text-align: center;
+  font-size: 1.5vw;
 }
 
 /* Nav Bar Styling */
@@ -401,6 +402,10 @@ footer {
     margin: auto;
     width: 100%;
     flex-flow: column wrap;
+  }
+
+  .tagline {
+      font-size: 2.25vw;
   }
 
   .dropdown-content {
