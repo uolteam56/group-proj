@@ -70,6 +70,10 @@ ul {
   cursor: pointer;
 }
 
+.navbtn, .dropbtn {
+    color: blue;
+}
+
 /* Body and content styling
    Image borders, text styling, and body background/layout to allow
    for effective flex positioning of content */
