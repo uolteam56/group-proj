@@ -203,6 +203,9 @@ img {
 .sznDropdown:hover .seasonDropdownContent {
   display: block;
 }
+a.button {
+  display: flex;
+}
 
 a.button,
 .purchasebutton,
