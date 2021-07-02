@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head>
+    <!-- head section for SEO, browser optimization, and script & styling import -->
     <meta charset="utf-8" />
     <meta name="robots" content="all" />
     <meta name="creator" content="cm1040 Team 56" />
@@ -20,8 +21,7 @@
 </head>
 
 <body>
-    <!-- Header that includes links to other pages. This may be copied and pasted in other pages. -->
-    <!-- Header that includes links to other pages. This may be copied and pasted in other pages. -->
+    <!-- Header for navigation and context -->
     <header class="header" style="position: static">
         <!-- Container includes links for hours, attractions, ticketing -->
         <div class="logo-container">
@@ -30,11 +30,12 @@
                 <img id="logo" src="./assets/CSP.jpeg" alt="CS Park logo" style="border-radius: 2%;">
             </a>
         </div>
+        <!-- CS Park Tagline and Page ID -->
         <div class="tagline">
             <h1>TIME TO DOWNLOAD SOME FUN!!!!</h1>
             <h2 class="pagetitle">Attractions</h2>
         </div>
-        <!-- navigation sub-header -->
+        <!-- Container includes links for attractions & ticketing and an hours dropdown -->
         <nav>
             <ul>
                 <li id="navlink" class="navdrop">
@@ -53,16 +54,19 @@
             </ul>
         </nav>
     </header>
-
+    
+    <!-- container for attractions page content -->
     <div class="attractions-container">
         <div class="slider-container">
-            <!-- Slider for ride height -->
+            <!-- Slider for ride height selection-->
             <!-- Filters attractions by height input taken from visitor -->
             <!-- Browser language test to switch between imperial & metric units -->
 
             <!-- Slider for metric system -->
             <h5>Minimum Height to Visit:</h5>
             <div class="sliderMetric" id="sliderMetric" style="display: flex">
+                <!-- Uses a range slider to trigger two 'oninput' events -- one formatting a current height variable for output,
+                    one running a js script with current height to toggle div display values for rides -->
                 <input type="range" id="metricHeight" name="metricHeight" list="metricTickmarks" min="90" max="150"
                     step="2.5" value="110" oninput="result.value=metricHeight.value;
                     slideAction(metricHeight.value)" />
@@ -71,6 +75,7 @@
 
             <!-- Slider for imperial system -->
             <div class="sliderImperial" id="sliderImperial" style="display: none">
+                <!-- Similar behavior to sliderMetric, with added js text literal for imperial formatting -->
                 <input type="range" id="usHeight" name="usHeight" list="usTickmarks" min="92" max="153" value="122.5"
                     oninput="usResult.value=`${Math.floor(usHeight.value/30.48)}' ${Math.floor(usHeight.value/2.54)%12}`;
                     slideAction(usHeight.value)" />
@@ -87,18 +92,19 @@
             </div>
         </div>
 
-        <!-- Script for switching between metric/imperial based on browser language -->
+        <!-- Script for switching between metric/imperial slider div based on browser language -->
         <script>
             const lang = navigator.language;
             if (/^en-US\b/.test(lang)) {
-                document.getElementById("sliderImperial").style.display =
-                    "block";
+                document.getElementById("sliderImperial").style.display = "block";
                 document.getElementById("sliderMetric").style.display = "none";
             }
         </script>
+        
+        <!-- ride section container -->
         <div class="allAttractions">
         <div class="attraction" id="at1">
-            <!-- Name of attraction, image of attraction and a brief description-->
+            <!-- attraction class contains names of attractions, image of attractions and a brief description of each-->
             <h3>Fractal Land</h3>
             <img src="/assets/attractions/fractalModels_fractal_land.jpeg"
                 alt="Image of the output of a person's mirror reflection distorted using fractals" />
@@ -161,10 +167,9 @@
 
     </div>
 
-
+  <!-- Container for footer -->
     <footer class="footer">
         <div class="container" id="footer-data-container">
-            <!-- h tags shall be converted into a tags if we create the pages -->
             <div class="footer-col" id="footer-col-1">
                 <h4>My Account</h4>
                 <p>Sign In</p>
@@ -180,6 +185,7 @@
                 <p>Terms of Use</p>
                 <p>Privacy Policy</p>
             </div>
+      <!-- social link container -->
             <div class="footer-col" id="footer-col-social">
                 <a href=""><img src="/assets/f_logo.png" alt="facebook logo" height=50 width=50></a>
                 <a href=""><img src="/assets/ig_logo.png" alt="instagram logo" height=50 width=50></a>

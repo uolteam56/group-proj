@@ -3,7 +3,9 @@ html {
   max-width: 100%;
 }
 
-/* Header and nav styling */
+/* Header and nav styling 
+   Header styled to stay at top of page regardless of scroll position,
+   content oriented via flex positioning.  Modified positioning/size of sub-elements. */
 
 header {
   position: sticky;
@@ -17,6 +19,7 @@ header {
   justify-content: space-between;
   flex-wrap: nowrap;
   align-items: flex-end;
+  background-image: url("/assets/paperBg.jpeg");
   background-color: rgba(252, 231, 134, 0.95);
 }
 
@@ -25,13 +28,15 @@ header {
   align-self: flex-start;
 }
 
+/*vw uses view width to proportionally scale font-size */
 .tagline {
   align-self: center;
   text-align: center;
   font-size: 1.5vw;
 }
 
-/* Nav Bar Styling */
+/* Nav Bar Styling 
+   Nav Links styled as cohesive unit on right side of page with responsive sizing */
 
 nav {
   background-color: rgba(119, 190, 226, 0.5);
@@ -65,12 +70,9 @@ ul {
   cursor: pointer;
 }
 
-.general-text {
-  letter-spacing: 1px;
-  line-height: 35px;
-}
-
-/* Body and content styling */
+/* Body and content styling
+   Image borders, text styling, and body background/layout to allow
+   for effective flex positioning of content */
 
 body {
   margin: 0;
@@ -162,7 +164,9 @@ img {
   margin-right: 2%;
 }
 
-/* Button and link styling */
+/* Button and link styling 
+   Styling for nav buttons, hover response, and links styled as buttons
+   Uses blanket selectors in parts for code efficiency */
 
 [class$="button"]:hover {
   background-color: rgba(119, 191, 226, 1);
@@ -220,7 +224,9 @@ a.button,
   border-style: inset;
 }
 
-/* Attraction page styling */
+/* Attraction page styling
+   Modified header to static in attractions.html, while height slider is persistent
+   in order to allow consistent interaction with page content */
 
 .slider-container {
   width: 300px;
@@ -232,6 +238,45 @@ a.button,
   position: sticky;
   top: 200px;
 }
+
+.attractions-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-around; 
+}
+
+.allAttractions {
+   background: rgba(119, 190, 226, 0.8);
+   display: flex;
+   flex-flow: row wrap;
+   justify-content:space-around; 
+}
+
+.attraction {
+   display: grid;
+   margin: 5px;
+   text-align: center;
+   width: 35%;
+   height: 25%;
+   flex-grow: 1;
+   border: 2px solid rgba(119, 190, 226, 0.8);
+  }
+  
+  /* Flex-Grow allows for certain attraction containers to be larger than others while
+     maintaining responsive sizing for the page as a whole */
+  #at4 {
+      flex-grow: 2;
+  }
+
+  /* Centered images in attraction containers */
+  .attraction>img {
+    display: block;
+    margin: 0 auto;
+  }
+
+/* Slider styling -- necessary to disable default webkit appearance in order
+   to customize slider, most likely not fully cross-browser compatible, optimal in chrome
+   Slider track, thumb, datalist, and hover response must all be styled separately*/
 
 .sliderMetric,
 .sliderImperial {
@@ -282,42 +327,9 @@ input[type="range"]::-webkit-slider-thumb:hover {
     background: rgb(243, 150, 29);
 }
 
-.attractions-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content:space-around; 
-}
-.allAttractions {
-   background: rgba(119, 190, 226, 0.8);
-   display: flex;
-   flex-flow: row wrap;
-   justify-content:space-around; 
-}
 
-.attraction {
-   display: grid;
-   margin: 5px;
-   text-align: center;
-   width: 35%;
-   height: 25%;
-   flex-grow: 1;
-   border: 2px solid rgba(119, 190, 226, 0.8);
-  }
-
-  #at1 {
-      flex-grow: 1;
-  }
-
-  #at4 {
-      flex-grow: 2;
-  }
-
-  .attraction>img {
-    display: block;
-    margin: 0 auto;
-  }
-
-/* Ticketing styling */
+/* Ticketing styling
+   Flex styling with customized dropdown behavior*/
 
   .ticketing-container {
     display: flex;
@@ -344,7 +356,9 @@ input[type="range"]::-webkit-slider-thumb:hover {
     z-index: 2;
   }
 
-/* footer styling */
+/* footer styling
+   flex styling both outside and inside containers to maintain
+   responsive behavior*/
 
 footer {
   display: flex;
@@ -454,7 +468,11 @@ footer {
   }
 }
 
-/* Tablet Version */
+/* Tablet Version
+   On resize past a certain point, changes many containers to display
+   content in columnar context, as well as filling page width with
+   div size and background color.  Also modifies dropdown positioning
+   and text size*/
 @media screen and (max-width: 42em) {
   .header {
     flex-direction: column;
