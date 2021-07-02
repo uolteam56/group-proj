@@ -1,15 +1,15 @@
 const rides = [
     {
-        name: "at1",
-        height: 130,
+        name: "at1", //fractal land
+        height: 110,
     },
     {
-        name: "at2",
-        height: 90,
+        name: "at2", //vr world
+        height: 100,
     },
     {
-        name: "at3",
-        height: 95,
+        name: "at3", //rollercoaster
+        height: 140,
     },
 ];
 

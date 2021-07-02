@@ -84,6 +84,12 @@ p {
   font-size: 18px;
 }
 
+h5{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif bold;
+    font-size: 16px;
+}
+
 img {
   border-radius: 40px;
   max-width: 100%;
@@ -215,23 +221,15 @@ a.button,
 
 /* Attraction page styling */
 
-.attractions-container {
-  display: flex;
-}
-
 .slider-container {
   width: 300px;
-  height: 200px;
+  height: 120px;
   flex-shrink: 0;
-  border-radius: 30%;
-  border-color: teal;
-  border: 2px;
-  border-style: groove;
-  background-color: rgba(119, 191, 226, 0.8);
-}
-
-.allAttractions {
-  flex-wrap: wrap;
+  border:2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 8%;
+  background-color: rgba(119, 190, 226, 0.7);
+  position: sticky;
+  top: 200px;
 }
 
 .sliderMetric,
@@ -243,6 +241,7 @@ input[type="range"] {
   cursor: pointer;
   width: 80%;
   -webkit-appearance: none;
+  background: transparent;
 }
 
 datalist {
@@ -257,28 +256,65 @@ datalist {
 }
 
 input[type="range"]::-webkit-slider-runnable-track {
-  background: #fce786;
-  border-radius: 5px;
-  border: 5px outset #fce786;
+  
+  background: rgba(240, 240, 240, 0.2);
+  height: 3px;
+  border: 3px outset rgba(240, 240, 240, 0.493);
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0c0c0c;
 }
 
 input[type="range"]::-webkit-slider-thumb {
-  border: 2px outset #a22211;
+  border: 2px outset rgba(252, 163, 46, 0.9);
   height: 16px;
   width: 20px;
+  margin-top: -8px;
   border-radius: 85%;
-  background: #d22d16;
+  background: rgba(253, 167, 54, 1);
+  box-shadow: 2px 2px 2px #0c0c0c;
   -webkit-appearance: none;
 }
 
 input[type="range"]::-webkit-slider-runnable-track:hover {
-  background: #fbdd56;
+  background: rgba(240, 240, 240, 0.9);
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+    background: rgb(243, 150, 29);
+}
+
+.attractions-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-around; 
+}
+.allAttractions {
+   background: rgba(119, 190, 226, 0.8);
+   display: flex;
+   flex-flow: row wrap;
+   justify-content:space-around; 
 }
 
 .attraction {
-  display: grid;
-}
+   display: grid;
+   margin: 5px;
+   text-align: center;
+   width: 35%;
+   height: 25%;
+   flex-grow: 1;
+   border: 2px solid rgba(119, 190, 226, 0.8);
+  }
+
+  #at1 {
+      flex-grow: 1;
+  }
+
+  #at4 {
+      flex-grow: 2;
+  }
+
+  .attraction>img {
+    display: block;
+    margin: 0 auto;
+  }
 
 /* footer styling */
 
@@ -408,12 +444,16 @@ footer {
     flex-flow: column wrap;
   }
 
+  #navlink {
+      width: 100%;
+  }
+
   .tagline {
     font-size: 2.25vw;
   }
 
   .dropdown-content {
-    top: 525px;
+    top: 490px;
     right: 25%;
   }
 
@@ -429,5 +469,10 @@ footer {
 
   .sec {
       flex-flow: column wrap;
+  }
+
+  .slider-container {
+      top: 510px;
+      width: 100%;
   }
 }
