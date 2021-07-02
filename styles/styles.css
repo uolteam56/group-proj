@@ -334,6 +334,13 @@ input[type="range"]::-webkit-slider-thumb:hover {
     background-color: rgba(64, 61, 238, 0.8);
   }
 
+  [class$="DropdownContent"] {
+    background-color: rgba(119, 190, 226, 0.9);
+    border-radius: 10px;
+    position: fixed;
+    z-index: 2;
+  }
+
 /* footer styling */
 
 footer {
@@ -501,4 +508,9 @@ footer {
   #daypass, #wkndpass, #sznpass {
     width: 100%;
   }
+
+  [class$="DropdownContent"] {
+    position: inherit;
+  }
+
 }
