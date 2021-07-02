@@ -20,12 +20,19 @@ header {
   flex-wrap: nowrap;
   align-items: flex-end;
   background-image: url("/assets/paperBg.jpeg");
-  background-color: rgba(252, 231, 134, 0.95);
 }
 
 .logo-container {
   flex-shrink: 0;
   align-self: flex-start;
+}
+
+#logo {
+  display: block;
+}
+
+#logo-mobile {
+  display: none;
 }
 
 /*vw uses view width to proportionally scale font-size */
@@ -81,7 +88,8 @@ ul {
 body {
   margin: 0;
   padding: 0;
-  background-image: url("/assets/ENIAC.jpg");
+  background: rgb(136,136,136);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, #95BBD5 100%);
 }
 
 p {
@@ -130,7 +138,7 @@ img {
 }
 
 .sec-about-container {
-  background-color: rgba(252, 231, 134, 0.95);
+  background-color: rgba(186, 190, 202, 0.95);
   border-radius: 40px;
   padding: 25px 25px 25px 25px;
   height: 100%;
@@ -220,16 +228,16 @@ a.button,
 [class$="dropbutton"] {
   letter-spacing: 1.5px;
   width: 50%;
-  text-align: justify;
   background-color: rgba(119, 190, 226, 0.5);
   padding: 25px 25px 25px 25px;
   border-radius: 15px/30px;
   border-color: rgba(255, 255, 255);
   border-style: inset;
+  text-align: center;
 }
 
 /* Attraction page styling
-   Modified header to static in attractions.html, while height slider is persistent
+   Modified header to static in attractions.html
    in order to allow consistent interaction with page content */
 
 .slider-container {
@@ -239,13 +247,13 @@ a.button,
   border:2px solid rgba(0, 0, 0, 0.5);
   border-radius: 8%;
   background-color: rgba(119, 190, 226, 0.7);
-  position: sticky;
-  top: 200px;
+  align-self: center;
+  justify-self: center;
 }
 
 .attractions-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   justify-content:space-around; 
 }
 
@@ -381,7 +389,7 @@ footer {
   width: 90%;
   align-items: center;
   justify-content: space-around;
-  background-color: rgba(252, 231, 134, 0.1);
+  background-color: rgba(186, 190, 202, 0.35);
   border-radius: 20px;
   border-style: inset;
 }
@@ -480,22 +488,34 @@ footer {
 @media screen and (max-width: 42em) {
   .header {
     flex-direction: column;
+    justify-content: center;
     height: 100%;
+    width: 100%;
+    margin: 0;
   }
 
   .logo-container {
     padding: 0;
     margin: auto;
   }
+  
+  #logo {
+    display: none;
+  }
+
+  #logo-mobile{
+    display: block;
+  }
 
   nav {
     margin: auto;
     width: 100%;
-    flex-flow: column wrap;
+    flex-flow: column;
   }
 
   .navlink {
       width: 100%;
+      padding: 15px 0px 15px 0px;
   }
 
   .tagline {
@@ -503,8 +523,7 @@ footer {
   }
 
   .dropdown-content {
-    top: 490px;
-    right: 25%;
+    position: inherit;
   }
 
   #footer-data-container {
