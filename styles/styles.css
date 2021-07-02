@@ -17,7 +17,7 @@ header {
   justify-content: space-between;
   flex-wrap: nowrap;
   align-items: flex-end;
-  background-color: rgba(252, 231, 134, 0.8);
+  background-color: rgba(252, 231, 134, 0.95);
 }
 
 .logo-container {
@@ -73,7 +73,6 @@ ul {
 /* Body and content styling */
 
 body {
-  display: block;
   margin: 0;
   padding: 0;
   background-image: url("/assets/ENIAC.jpg");
@@ -208,7 +207,6 @@ img {
 a.button,
 .purchasebutton,
 [class$="dropbutton"] {
-  display: flex;
   letter-spacing: 1.5px;
   width: 50%;
   text-align: justify;
@@ -314,6 +312,26 @@ input[type="range"]::-webkit-slider-thumb:hover {
   .attraction>img {
     display: block;
     margin: 0 auto;
+  }
+
+/* Ticketing styling */
+
+  .ticketing-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+   #daypass, #wkndpass, #sznpass {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    background-color: rgba(64, 61, 238, 0.8);
   }
 
 /* footer styling */
@@ -474,5 +492,13 @@ footer {
   .slider-container {
       top: 510px;
       width: 100%;
+  }
+
+   .ticketing-container {
+    flex-flow: column wrap;
+  }
+  
+  #daypass, #wkndpass, #sznpass {
+    width: 100%;
   }
 }
