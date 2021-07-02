@@ -38,17 +38,17 @@
         <!-- Container includes links for attractions & ticketing and an hours dropdown -->
         <nav>
             <ul>
-                <li id="navlink" class="navdrop">
+                <li class="navlink navdrop">
                     <a class="dropbtn" href="#">Hours</a>
                     <div class="dropdown-content">
                         <p class="general-text">Weekdays: 9 AM to 9 PM </p>
                         <p class="general-text">Weekends: 10 AM to 11 PM </p>
                     </div>
                 </li>
-                <li id="navlink">
+                <li class="navlink">
                     <a class="navbtn" href="./attractions.html">Explore</a>
                 </li>
-                <li id="navlink">
+                <li class="navlink">
                     <a class="navbtn" href="/ticketing.html">Bookings</a>
                 </li>
             </ul>
@@ -65,9 +65,9 @@
             <!-- Slider for metric system -->
             <h5>Minimum Height to Visit:</h5>
             <div class="sliderMetric" id="sliderMetric" style="display: flex">
-                <!-- Uses a range slider to trigger two 'oninput' events -- one formatting a current height variable for output,
+                <!-- Uses a range slider to trigger two 'oninput' events - one formatting a current height variable for output,
                     one running a js script with current height to toggle div display values for rides -->
-                <input type="range" id="metricHeight" name="metricHeight" list="metricTickmarks" min="90" max="150"
+                <input type="range" id="metricHeight" name="metricHeight" min="90" max="150"
                     step="2.5" value="110" oninput="result.value=metricHeight.value;
                     slideAction(metricHeight.value)" />
                 <output id="result" name="result" for="metricHeight">100 </output> cm

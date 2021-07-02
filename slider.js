@@ -14,14 +14,14 @@ const rides = [
 ];
 
 var slideAction = function(userHeight) {
-let value = parseInt(userHeight);
+    let value = parseInt(userHeight);
 
-for (let i=0; i<3; i++) {
-    if (rides[i].height > value) {
-        document.getElementById(rides[i].name).style.display = "none";
-    }
-    else if (rides[i].height <= value) {
-        document.getElementById(rides[i].name).style.display = "grid";
-    }
-};
+    for (let i=0; i<3; i++) {
+        if (rides[i].height > value) {
+            document.getElementById(rides[i].name).style.display = "none";
+        }
+        else if (rides[i].height <= value) {
+            document.getElementById(rides[i].name).style.display = "grid";
+        }
+    };
 }
