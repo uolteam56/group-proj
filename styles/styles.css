@@ -19,7 +19,7 @@ header {
   justify-content: space-between;
   flex-wrap: nowrap;
   align-items: flex-end;
-  background-image: url("/assets/paperBg.jpeg");
+  background-image: url("./assets/paperBg.jpeg");
 }
 
 .logo-container {
