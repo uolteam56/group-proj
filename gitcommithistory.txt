@@ -1,0 +1,1027 @@
+commit b68b19487a8399820545b2f4642c15202d4efb06
+Author: Dan <danhedelstein@gmail.com>
+Date:   Sat Jul 3 13:22:38 2021 -0400
+
+    Fixed a long list of bugs
+
+commit 1eb3ccd26a50d883abb0eff2da6a69d86b888a71
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Sat Jul 3 19:06:11 2021 +0530
+
+    Reduced some font-sizes
+
+commit 50ca46922709ccd4419f209ece799182f8a33002
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Sat Jul 3 18:48:38 2021 +0530
+
+    Updated the grey to a slightly different color
+    
+    -changed grey background and text background to (145, 140, 140)
+    -changed text colors slightly
+
+commit b7db46cc4963a6215af79e658fe1c62ec53dd650
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Sat Jul 3 18:37:45 2021 +0530
+
+    Reduced master width to 80%
+    
+    - reduced width of <body>
+    - 100% width on a larger display is expanding everything way too much
+
+commit c35e9b315db85f40f731d1e68bb4ed469972bf3a
+Merge: 67563ca 21de30e
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Sat Jul 3 18:35:03 2021 +0530
+
+    Merge pull request #6 from uolteam56/edit-animations
+    
+    Added animations
+
+commit 21de30e9081a51e5321a51cb9e9480349715b702
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Sat Jul 3 18:34:19 2021 +0530
+
+    Added animations
+
+commit 67563cacbe0e3c2219be1cac9125cf31f03a08bb
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Sat Jul 3 16:19:30 2021 +0530
+
+    Added animations js file
+    
+    Will commit again with changes
+
+commit 5db9e150c53b882483fc9e1cb4150ad8a7f751ff
+Merge: 8329905 cde494e
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Sat Jul 3 15:29:49 2021 +0530
+
+    Merge pull request #5 from uolteam56/css-minor-updates
+    
+    CSS updates
+
+commit cde494ee775ece0e93df6957f1562c55c732106b
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Sat Jul 3 15:29:15 2021 +0530
+
+    CSS updates
+    
+    Updated header position to not be sticky: transparent background causes header to roll over page content
+
+commit 8329905c66fcdb1395bdfdcf7f6fda9e1578a7d2
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Sat Jul 3 02:29:19 2021 -0400
+
+    Update ticketing.html
+
+commit 78ab19945abb449102ed813198359ae58151f289
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Sat Jul 3 02:21:23 2021 -0400
+
+    Update index.html
+
+commit 33e56b93de66266157be03962d399314fd514380
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Sat Jul 3 02:19:07 2021 -0400
+
+    Update styles.css
+
+commit b45ed276ead733febe8bbfb8063c731496f691c0
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Sat Jul 3 02:18:25 2021 -0400
+
+    Update ticketing.html
+
+commit 0bed4bef0eb39a2becd81109a2d4a0db691e743e
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Sat Jul 3 01:30:55 2021 -0400
+
+    Add files via upload
+    
+    https://unsplash.com/photos/oB7XS_vqja4 by Jeremy Lam
+
+commit 22a28de1bc08b09e1b1b8fd63a0e44a6115f3ca4
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Sat Jul 3 01:29:40 2021 -0400
+
+    Update ticketing.html
+
+commit 02dda0209b9a1613f647231f334f9e6f3efc936f
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Sat Jul 3 00:43:17 2021 -0400
+
+    Update styles.css
+
+commit 8c67cee7a5d0068ef71dc8aef0949a0456593295
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Sat Jul 3 00:40:55 2021 -0400
+
+    Update styles.css
+
+commit a647cdd2069abb252ff349daa5b0dad7f2a26f52
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Sat Jul 3 00:37:56 2021 -0400
+
+    Update ticketing.html
+
+commit bc7ae376d2ac59c74d02169244f6955bd67476a3
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Sat Jul 3 00:31:51 2021 -0400
+
+    Update styles.css
+
+commit 8377f5d54a84c340c17226012d30315aa84ee278
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Sat Jul 3 00:06:30 2021 -0400
+
+    Update styles.css
+
+commit 7510d244c3e66bf3444f0fd59e3d42724f10f4f5
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jul 2 23:56:53 2021 -0400
+
+    Update attractions.html
+
+commit eee21b763cd010c6efedebd2703b124c07b7e9d5
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jul 2 23:55:37 2021 -0400
+
+    Update index.html
+
+commit 4e7b4878c40e4346612e48901e255a7ddc7076f9
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jul 2 23:53:54 2021 -0400
+
+    Update ticketing.html
+
+commit 81564ef927ab28bc7eb0d16d901dcfeb4cb0b5b8
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jul 2 23:53:03 2021 -0400
+
+    Update styles.css
+
+commit eb8066d9e59b527260777847e0d88f000f76feb6
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jul 2 23:39:21 2021 -0400
+
+    Update styles.css
+
+commit dad8865993aa531aa4c2a881eeabee3dae2dc9c3
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jul 2 23:24:30 2021 -0400
+
+    Update attractions.html
+
+commit d04172bbcf35b5cbf15ae3cd51f63040c1215598
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jul 2 23:24:06 2021 -0400
+
+    Update header.html
+
+commit 5f24f92fe0da8682a9e9af76ab26a293a8883a8c
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jul 2 23:23:43 2021 -0400
+
+    Update index.html
+
+commit 4f20f08ae8e0f1a12393d9e30c82560bb8652a5b
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jul 2 23:23:14 2021 -0400
+
+    Update ticketing.html
+
+commit de6f22d4f6401460d5b25640c71a164153f6d0e8
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jul 2 23:22:33 2021 -0400
+
+    Update styles.css
+
+commit 79f82941dc953ef5aa39aa46870793e8eeba92a9
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jul 2 22:57:29 2021 -0400
+
+    Update index.html
+
+commit 15e8efc66c84f7932505b7b2f27747c87e6c3e2f
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jul 2 22:55:15 2021 -0400
+
+    Update attractions.html
+
+commit 7b328a1c605f26406482fb3ca4f93f91a06b19de
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jul 2 22:54:49 2021 -0400
+
+    Update header.html
+
+commit edc815e1d4f6dc712d989d6f8dd1d0f3a8825db5
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jul 2 22:54:23 2021 -0400
+
+    Update ticketing.html
+
+commit f10be003cf4707957f17b5c1193c694e945456fe
+Author: Dan <danhedelstein@gmail.com>
+Date:   Fri Jul 2 18:25:16 2021 -0400
+
+    Color change and Mobile Header
+
+commit 013420c0238f3c2548ceba02b5fb4714c70f4ff3
+Author: Nicole Munk <nicole.munk122@gmail.com>
+Date:   Fri Jul 2 21:06:33 2021 +0100
+
+    Fix bug in nav bar
+
+commit 46637d253d3f5b1dd80c9f61868b5b33ecc339f5
+Author: Nicole Munk <nicole.munk122@gmail.com>
+Date:   Fri Jul 2 20:09:53 2021 +0100
+
+    CSS for nav links to remain blue when clicked
+
+commit 96597ffc3b68149e98552195eca0e73a8940c081
+Merge: 02b6334 8d96af0
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Fri Jul 2 22:07:39 2021 +0530
+
+    Merge pull request #4 from uolteam56/fix-w3c-errors
+    
+    Added changes suggested by Validator
+
+commit 8d96af0bab755ff46333069ead1a3e11f9139152
+Merge: c9b22c7 02b6334
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Fri Jul 2 22:07:22 2021 +0530
+
+    Merge branch 'master' into fix-w3c-errors
+
+commit c9b22c7704062f92340bd0e67bb581c40084c0e2
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Fri Jul 2 22:05:12 2021 +0530
+
+    Added changes suggested by Validator
+    
+    - removed navlink duplicate ids and converted to class
+    - updated change from id to class in css
+    - removed list = "metricTickMarks" due to error thrown
+
+commit 02b6334e2558bc861c562f247b4b4930e27d94bd
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jul 2 12:30:43 2021 -0400
+
+    Update index.html
+
+commit 11b355a3458ebaa96c0f7a4d75c45153f38fef56
+Author: Dan <danhedelstein@gmail.com>
+Date:   Fri Jul 2 12:02:36 2021 -0400
+
+    Logo color change
+
+commit ddf68ced44b116770afcd9673ef4dc0399b5ceca
+Author: Dan <danhedelstein@gmail.com>
+Date:   Fri Jul 2 11:34:14 2021 -0400
+
+    Added commenting to code
+
+commit ec700e3e7a2e51d9222cf96d9891385470426512
+Author: Dan <danhedelstein@gmail.com>
+Date:   Fri Jul 2 10:07:41 2021 -0400
+
+    minor edit
+
+commit ac17377d8c9dc9ea82e7c0bc9188324bc65a8d97
+Author: Dan <danhedelstein@gmail.com>
+Date:   Fri Jul 2 09:58:07 2021 -0400
+
+    minor edit
+
+commit 6bd8ebb7f7771ae30abf1310379aa1b310407cc6
+Author: Dan <danhedelstein@gmail.com>
+Date:   Fri Jul 2 09:54:38 2021 -0400
+
+    Ticketing dropdown edit
+
+commit abb543584373eb304f4453a4fd025556ed3b8271
+Author: Dan <danhedelstein@gmail.com>
+Date:   Fri Jul 2 09:47:35 2021 -0400
+
+    Functional Ticketing Page
+
+commit 4779222f32de841747299d4ef5b2fb69c934bdb0
+Author: Dan <danhedelstein@gmail.com>
+Date:   Thu Jul 1 23:31:23 2021 -0400
+
+    Attractions page edit
+
+commit 04a3c320331f3f06c9e8978b5c117dde35ee0ea2
+Author: Dan <danhedelstein@gmail.com>
+Date:   Thu Jul 1 21:46:55 2021 -0400
+
+    Index.html tablet ready
+
+commit 11b65af2612554b1a69f6c9d99e683d15cb31a93
+Author: Dan <danhedelstein@gmail.com>
+Date:   Thu Jul 1 19:21:15 2021 -0400
+
+    Footer tablet ready
+
+commit 4115ee6ad6e4e42f3ca391b9ab75bfb0a105c5f7
+Author: Dan <danhedelstein@gmail.com>
+Date:   Thu Jul 1 18:55:32 2021 -0400
+
+    Quick edit
+
+commit 077ec5899629cb5ad99d8a1d6a6297cfb31c1c27
+Author: Dan <danhedelstein@gmail.com>
+Date:   Thu Jul 1 18:42:51 2021 -0400
+
+    Dropdown for tablet mode
+
+commit 44aa8367e9f9c9602a3ef88417d8b2c97df920b2
+Author: Dan <danhedelstein@gmail.com>
+Date:   Thu Jul 1 18:37:16 2021 -0400
+
+    Tablet mode header
+
+commit 80b5dd841428be2f96aef886cfc4411e0a54137f
+Author: Dan <danhedelstein@gmail.com>
+Date:   Thu Jul 1 16:39:30 2021 -0400
+
+    Drop-downs for ticketing
+
+commit 267aeeb642009e399eb96fbaff57744ee371c699
+Author: Dan <danhedelstein@gmail.com>
+Date:   Thu Jul 1 14:57:14 2021 -0400
+
+    Another edit for navbar
+
+commit 31cfb64d79442d5add66c586079bd7a936763188
+Author: Dan <danhedelstein@gmail.com>
+Date:   Thu Jul 1 14:13:16 2021 -0400
+
+    Header rewrite and CSS organization
+
+commit ab2a7d7306f8e42e56fabf330af82386683eac28
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Tue Jun 29 05:42:06 2021 -0400
+
+    Update ticketing.html
+
+commit 072393ae28927443177dc92d9b06b6a804838359
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Tue Jun 29 05:38:40 2021 -0400
+
+    Update ticketing.html
+
+commit 4122ea963a4b93610b2ad49fc895a6a303686a88
+Merge: 03bb3f1 6e63219
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Tue Jun 29 11:40:46 2021 +0530
+
+    Merge pull request #3 from uolteam56/hours-to-dropdown
+    
+    Added dropdown for hours
+
+commit 6e63219ab624168b3549bceb8e83b16f8154a6c3
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Tue Jun 29 11:39:13 2021 +0530
+
+    Updated dropdown button
+    
+    - Added dropdown functionality to Hours button on homepage
+    - Added necessary styling
+
+commit 03bb3f19f5bdfc82ab2e00bcdd59ce0a49cb30eb
+Merge: e7f3f70 04b041a
+Author: Dan <danhedelstein@gmail.com>
+Date:   Mon Jun 28 17:16:23 2021 -0400
+
+    Merge branch 'master' of github.com:uolteam56/group-proj
+
+commit e7f3f706bb1bc1c65eb392c41a4ab514a4b94b80
+Author: Dan <danhedelstein@gmail.com>
+Date:   Mon Jun 28 17:15:59 2021 -0400
+
+    .
+
+commit 04b041a8a22609b36637d44da416d63d9ec1263a
+Author: Nicole <nicole.munk122@gmail.com>
+Date:   Mon Jun 28 14:01:04 2021 +0100
+
+    Complete HTML and CSS for index.html and footer CSS in all pages
+
+commit 2f406af9cdd510b014dcfbec868cfd3813dda632
+Author: Nicole <nicole.munk122@gmail.com>
+Date:   Mon Jun 28 13:02:01 2021 +0100
+
+    CSS footer and fix some errors in index.html
+
+commit 1c088ef220fb116c0eeb0a7d816efca3ff877221
+Author: Nicole <nicole.munk122@gmail.com>
+Date:   Mon Jun 28 11:01:40 2021 +0100
+
+    Fix header in attractions and ticketing, fix an error with the height slider and delete old index page
+
+commit 345152a424a048c3b57191f1bdb3414767f616bb
+Merge: d469755 f8fef20
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Sun Jun 27 17:50:58 2021 -0400
+
+    Merge pull request #14 from uolteam56/master
+    
+    ,
+
+commit f8fef20120fb3f2151cee0c00e9a9b4a96d48486
+Author: Dan <danhedelstein@gmail.com>
+Date:   Sun Jun 27 13:59:08 2021 -0400
+
+    Fixed css link
+
+commit 363032c1fffb1b428043c26dd84bc05c5e273802
+Merge: 28aea2c 0c1f4be
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Sun Jun 27 11:04:19 2021 +0530
+
+    Merge pull request #2 from uolteam56/styling-sections
+    
+    Update styles.css
+
+commit 0c1f4beb2a4a76e74e77564be9f14813611c285c
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Sun Jun 27 11:02:59 2021 +0530
+
+    Update styles.css
+
+commit 28aea2c9af7f55e49fe19f075798082ddcfa085b
+Author: Nicole Munk <nicole.munk122@gmail.com>
+Date:   Sat Jun 26 10:25:17 2021 +0100
+
+    Add header code from new index to header.html
+
+commit f1de604df66b7a2a36acfa656b89e4c4f6044779
+Merge: 299eb4b 76a3a1b
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Sat Jun 26 01:30:59 2021 +0530
+
+    Merge pull request #1 from uolteam56/styling-sections
+    
+    Styling sections
+
+commit 76a3a1be616f6d6cb5f158951708ed19a8fb8182
+Merge: a65149a 299eb4b
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Sat Jun 26 01:30:46 2021 +0530
+
+    Merge branch 'master' into styling-sections
+
+commit 299eb4b9c6a10f363a1fdb798d8f08df198d73a2
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Fri Jun 25 04:58:45 2021 +0530
+
+    Update slideShow.js
+
+commit a65149a1929503db69f6991a8f5b70ec548ceb4d
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Fri Jun 25 04:51:07 2021 +0530
+
+    Added styling to section 2
+    
+    -added styling to section 2
+
+commit eb3dfbd6c2c4e4babe601d10c4efa6bb26abc416
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Fri Jun 25 03:37:27 2021 +0530
+
+    Update slideShow.js
+
+commit c1694ed3e6b49a8f0b62ec96f97578d6473307c5
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Fri Jun 25 03:34:52 2021 +0530
+
+    Update slideShow.js
+
+commit 2b4848dee6a1308f42596c22b3e4da49dd6c42de
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Fri Jun 25 03:27:35 2021 +0530
+
+    Updated Slideshow container
+    
+    -set styles for slideshow container
+    - minor styling changes
+
+commit c24e199188885be013cd4a53d9c0b6c5454450ca
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Fri Jun 25 00:45:19 2021 +0530
+
+    CSS and slideshow JS updates
+    
+    - added js for hanndling slideshow to js/slideShow.js
+    - updated CSS
+      - added styling to header
+      - added styling to slideshow
+    -updated HTML
+     - added some div tags and classes
+        to ensure good hierarchy
+
+commit 5ae4421d0c5777ed4227ed71da2db283fa42bdac
+Author: Dan <danhedelstein@gmail.com>
+Date:   Thu Jun 24 12:02:32 2021 -0400
+
+    Minor edit
+
+commit 3fabae8fb0e51c8c6f6fb05ba405685d4458c43a
+Author: Dan <danhedelstein@gmail.com>
+Date:   Thu Jun 24 12:00:09 2021 -0400
+
+    Implement slider
+
+commit b346778872f142a39396abc7a096e1ef0f5ec25d
+Author: Dan <danhedelstein@gmail.com>
+Date:   Wed Jun 23 14:12:08 2021 -0400
+
+    Initial framework for media query
+
+commit ad2491cdc6632d9b0044346da5aaa4875f9f3fb4
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Tue Jun 22 20:24:57 2021 +0400
+
+    Update index.html
+    
+    merged FAQ into section 4
+
+commit 2f478f357b55949f24e36caa77c38d023daa1716
+Author: Dan <danhedelstein@gmail.com>
+Date:   Tue Jun 22 11:17:08 2021 -0400
+
+    Final css styling slider
+
+commit f9f2380924c447c678ba2bc7d5dc7ea21d317006
+Author: Dan <danhedelstein@gmail.com>
+Date:   Tue Jun 22 10:53:52 2021 -0400
+
+    Quick CSS edit
+
+commit c513281ad61796392d7586c8f5d03e8acafb82f2
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Tue Jun 22 13:59:24 2021 +0400
+
+    Create index.html
+    
+    new index file in accordance with updated wireframe
+
+commit fd70f7997f9cdbde4f69b1c6600d9517c8ddb611
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Tue Jun 22 13:58:39 2021 +0400
+
+    Rename index.html to old_index.html
+
+commit cd5a986d6c4bae35cef13a8ed7fd108549c54b79
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Tue Jun 22 13:43:53 2021 +0400
+
+    Add files via upload
+    
+    source: https://unsplash.com/photos/9QS6gt0ipuo by Denisse Leon
+
+commit 9aaa4a01a6e208e4f8ab83fa1dd1973da22c1e87
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Tue Jun 22 11:54:22 2021 +0400
+
+    Add files via upload
+    
+    source: https://unsplash.com/photos/sU1CUCUEYY4 by Nikolas Gannon
+
+commit 92eb262922a9ed85aadfa6c20768f2cb04c207b9
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Tue Jun 22 11:52:30 2021 +0400
+
+    Add files via upload
+    
+    source: https://unsplash.com/photos/mUFFI4CkmAI by Scott Trento
+
+commit 204c2bd605763430751de5b10ef35af796efd756
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Tue Jun 22 11:51:19 2021 +0400
+
+    Delete slideshow_1
+
+commit d3af12c4d3f8ead9a9dcc62a1f1dae57f59dacbc
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Tue Jun 22 11:50:47 2021 +0400
+
+    Add files via upload
+    
+    source: https://unsplash.com/photos/GbvDICZSNIg by Luiz Guimaraes
+
+commit b653e0b8a7de4323864eabc76f52a7a6a0e20dc1
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Tue Jun 22 11:49:54 2021 +0400
+
+    Create slideshow_1
+
+commit 6390dd7cfaf829c5235c27c29fd106d519d717d4
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Mon Jun 21 21:34:52 2021 +0530
+
+    Added Wireframe design to github
+
+commit ddd9a5f373bb88ca59347b577ec0293a11e3893d
+Author: Dan <danhedelstein@gmail.com>
+Date:   Sun Jun 20 16:12:32 2021 -0400
+
+    Update to height slider & styling
+
+commit d3e0f6ba5c856ae5bb54350d6b9b110a03dda736
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Fri Jun 18 15:02:49 2021 +0400
+
+    Update attractions.html
+    
+    added attraction descriptions
+
+commit 49fe134d504f588980be987b1f0a7fddd49ffa3e
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Thu Jun 17 22:04:55 2021 +0530
+
+    Added to attractions
+    
+    - added a new attraction and related images
+
+commit 8c8d29cc8df3db94cf129c86773432f37d272c70
+Author: Dan <danhedelstein@gmail.com>
+Date:   Tue Jun 15 19:14:30 2021 -0400
+
+    small text edit for w3 validation
+
+commit bf92f3d3d9695c9cb0f2b2b47f0a121f7ee08255
+Author: Dan <danhedelstein@gmail.com>
+Date:   Tue Jun 15 19:10:11 2021 -0400
+
+    slight button edit
+
+commit 77ae84f7be2499ce302534c8da208031fb399a32
+Merge: c8ad3e8 403bdf5
+Author: Nicole <nicole.munk122@gmail.com>
+Date:   Mon Jun 14 21:43:37 2021 +0100
+
+    Merge CSS code and solve an issue
+
+commit c8ad3e8906a43d2242da82ddecb5f5dba9aa2c7e
+Author: Nicole <nicole.munk122@gmail.com>
+Date:   Mon Jun 14 21:40:41 2021 +0100
+
+    Add fonts to CSS and links to the stylesheet to the html pages
+
+commit 403bdf5be6373967f375bb74f28a9c6d4b1696b3
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Mon Jun 14 18:53:43 2021 +0530
+
+    Added attractions ideas with images
+    
+    Added attractions ideas:
+    - CS history museum
+    - Immersive VR world
+    - Fractal Land
+    Added corresponding images in attractions folder.
+
+commit 32061bf215fae295c5f8c1ed79922595fa82353b
+Merge: 3bf6282 d469755
+Author: Dan <danhedelstein@gmail.com>
+Date:   Sun Jun 13 13:31:03 2021 -0400
+
+    Merge branch 'master' of github.com:uolteam56/group-proj
+
+commit 3bf62825d0b9b92ef0f8616c44b807e55a9296d4
+Author: Dan <danhedelstein@gmail.com>
+Date:   Sun Jun 13 13:29:20 2021 -0400
+
+    Refine button CSS
+
+commit c9c13171148cc3d3856295b688564d42da5cf380
+Author: Dan <danhedelstein@gmail.com>
+Date:   Sun Jun 13 13:21:52 2021 -0400
+
+    Add CSS stylesheet to index, button styling
+
+commit d4697551aa4f25e177edf16f83154870b45728c8
+Merge: 8432cf4 3779209
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Sun Jun 13 12:54:09 2021 -0400
+
+    Merge pull request #10 from uolteam56/master
+    
+    .
+
+commit 3779209c29058614bf950cbf6f58a9ef461d486e
+Merge: cf9364f 8432cf4
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Sun Jun 13 12:53:32 2021 -0400
+
+    Merge branch 'dedelstein:master' into master
+
+commit cf9364f5eb45d597c6d89cc2fcce1ba4bbc479cd
+Author: Nicole <nicole.munk122@gmail.com>
+Date:   Sun Jun 13 13:08:20 2021 +0100
+
+    Add stylesheet for CSS
+
+commit 5e850defa5777428b68a521fb17591a05c470328
+Merge: bb61825 15cbf75
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Wed Jun 9 16:15:22 2021 +0530
+
+    Merge branch 'master' of https://github.com/uolteam56/group-proj
+
+commit bb618257bedc7bd77b4a8954bf770843473b1bd8
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Wed Jun 9 16:15:16 2021 +0530
+
+    Added colorPalette.json
+    
+    Created and updated a JSON object for the colour palette, please add changes if required.
+
+commit 15cbf75c5acd8c0eda0492ee75f96cd051344022
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Mon Jun 7 16:00:43 2021 +0400
+
+    Update ticketing.html
+    
+    Replaced placeholder text and added info about each type of pass.
+    Changed purchase link from a text link to a button.
+    Moved price from ticket heading onto the purchase button ("purchase for only $12.99").
+    Dropdown button changed from "includes:" to "Learn more:"
+
+commit 8432cf4a7868ffd07b846aabf4b42a8567e68b07
+Merge: 717c1c2 da8c836
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Sat Jun 5 22:59:47 2021 -0400
+
+    Merge pull request #8 from uolteam56/master
+    
+    .
+
+commit da8c836be414f11b49b8d0d7ae2eb70a04af629e
+Author: Dan <danhedelstein@gmail.com>
+Date:   Sat Jun 5 13:13:38 2021 -0400
+
+    Replace button tags with CSS-styled anchors, add alt text
+
+commit 077638ec784d66ed1208c78e3d08d536375049f7
+Author: Dan <danhedelstein@gmail.com>
+Date:   Sat Jun 5 12:39:32 2021 -0400
+
+    Remove basehref, rely on browser default
+
+commit 717c1c2c643fa4bbf3166fbe62d9d2e7466391ad
+Merge: 2d0e6cb bf405e6
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Sat Jun 5 12:24:30 2021 -0400
+
+    Merge pull request #7 from uolteam56/master
+    
+    .
+
+commit bf405e6d45bc41ed519a748742420e1efda8cbe5
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Fri Jun 4 18:33:05 2021 +0530
+
+    Added comments
+    
+    Added descriptive comments to html pages
+
+commit fd4e280e2b03374e02edcb6546f95748ac3804e3
+Author: Nicole Munk <nicole.munk122@gmail.com>
+Date:   Mon May 31 22:56:49 2021 +0100
+
+    Add images of the attractions
+
+commit a37240023a835529da5595ae935d3ff495fedc59
+Author: Nicole Munk <nicole.munk122@gmail.com>
+Date:   Mon May 31 22:32:19 2021 +0100
+
+    Fix error in footer code
+
+commit d4496715614c83feb98593fe9affa80f3dcb1078
+Author: Nicole Munk <nicole.munk122@gmail.com>
+Date:   Mon May 31 22:30:09 2021 +0100
+
+    Add code from header.html, fix indentation and fix an error in the footer code
+
+commit 5aa5fd18aabb19b7a2aa058264e3772a60b48b89
+Author: Nicole Munk <nicole.munk122@gmail.com>
+Date:   Mon May 31 22:29:28 2021 +0100
+
+    Add code from header.html, fix code in footer and add a divider for the content
+
+commit d74a5ea364856ffe397461d532cf7101829100f6
+Author: Nicole Munk <nicole.munk122@gmail.com>
+Date:   Mon May 31 22:01:30 2021 +0100
+
+    Add code from header.html and add a div for the attractions
+
+commit 39e04a144c91d0db4759853d04a0447f59bfbba3
+Author: Nicole Munk <nicole.munk122@gmail.com>
+Date:   Mon May 31 21:56:24 2021 +0100
+
+    Add code from header.html and fix indentation of the code to make it easier to read
+
+commit 15ecf3f8bddad47e904c7e5e82c63c2011bb4f7f
+Author: Nicole Munk <nicole.munk122@gmail.com>
+Date:   Mon May 31 21:53:10 2021 +0100
+
+    Add header.html page
+
+commit 3453f11cbe89d6289007cfbb1d205a18c27968d1
+Author: Nicole Munk <nicole.munk122@gmail.com>
+Date:   Mon May 31 20:48:13 2021 +0100
+
+    Comment unnecessary code in the ticketing page
+
+commit 1a617ca642a1d4a6fed803fdf6a2f3a69a685d32
+Author: Nicole Munk <nicole.munk122@gmail.com>
+Date:   Mon May 31 20:47:31 2021 +0100
+
+    Add .gitignore
+
+commit 7849eb584b48f19820e1ee16adf3064cae15ab57
+Author: Nicole Munk <nicole.munk122@gmail.com>
+Date:   Mon May 31 20:41:44 2021 +0100
+
+    Added language attribute to html tags
+
+commit 2d0e6cb6adf9a2e5bfeaa3e33fe7839ebe4b7762
+Merge: c023ae2 44a5610
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Mon May 31 12:03:21 2021 -0400
+
+    Merge pull request #6 from varous/patch-2
+    
+    Added nav-bar and image carousel
+
+commit c023ae2f14f2d488fa56bb39fa4a4d70bf384b96
+Merge: 49db0dd fef0b35
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Mon May 31 12:03:07 2021 -0400
+
+    Merge pull request #5 from varous/patch-1
+    
+    Removed carousel from attractions page
+
+commit 44a56109bc5a17f82db451b454c456f8d11dc644
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Mon May 31 12:42:27 2021 +0530
+
+    Added nav-bar and image carousel
+    
+    Added image carousel and nav-bar to index.html
+
+commit fef0b35fdc6036649d97159571f1e6b864f60b5b
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Mon May 31 12:38:53 2021 +0530
+
+    Removed carousel from attractions page
+    
+    Carousel was added mistakenly to the attractions page. Moving it to index
+
+commit 49db0dd88088bbca2f0b411f4ebefe06e8ba477f
+Author: Dan <danhedelstein@gmail.com>
+Date:   Wed May 26 19:13:27 2021 -0400
+
+    Minor Edit to attractions
+
+commit 49724fe70c3d23327f863404e84f17a8baff433c
+Author: Dan <danhedelstein@gmail.com>
+Date:   Wed May 26 19:10:00 2021 -0400
+
+    Add height sliders with some JS
+
+commit 452288ec62f695ae5f5063b913db19324713f53c
+Merge: 5dfc2b8 4b3cecf
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Wed May 26 14:37:42 2021 -0400
+
+    Merge pull request #4 from varous/master
+    
+    edits to attractions.html
+
+commit 4b3cecface132472e573b10fa712301fa95045f1
+Merge: 1ff7a81 ca3cf18
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Wed May 26 21:13:27 2021 +0530
+
+    Merge branch 'master' of https://github.com/varous/group-proj
+
+commit 1ff7a8171f07618fc6912cd39ffdae09855e52c4
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Wed May 26 21:11:38 2021 +0530
+
+    Update attractions.html
+
+commit ca3cf18b2a15671564426954d098386ca8527827
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Wed May 26 20:47:58 2021 +0530
+
+    Update ticketing.html
+
+commit 5dfc2b8c4c2414bdc75c1766898f418331f733d7
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Sat May 22 12:38:50 2021 -0400
+
+    Delete ticketingbody
+
+commit de65b864a0bd157cfd66f16a11cc1427022e8dcc
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Fri May 21 19:37:09 2021 -0400
+
+    Add Sourav's footer to the index page
+
+commit d87ff9b862a006da1a04a06be432fd4d245957c0
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Fri May 21 19:36:36 2021 -0400
+
+    Add Sourav's footer to the attractions page
+
+commit 2a30852aece20d5904d454a95f7b187b0ee7553e
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Fri May 21 19:35:19 2021 -0400
+
+    Integrating narmeen's changes into ticketing.html
+
+commit 5cd8217f092b8061f15f150ba04262704561d8f8
+Merge: cf9407d 97cfb85
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Fri May 21 12:17:29 2021 -0400
+
+    Merge pull request #3 from nrm33n/patch-1
+    
+    Create ticketingbody
+
+commit cf9407d0191285a83380bf714416c61f4cd74e24
+Merge: d482b38 a659fc1
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Fri May 21 12:17:13 2021 -0400
+
+    Merge pull request #2 from varous/master
+    
+    Updated footer
+
+commit a659fc126e325456f8452429815b78c91484ed1f
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Fri May 21 13:54:36 2021 +0530
+
+    Updated footer
+    
+    -Added html for footer
+    -Added resource files for social logos
+
+commit 97cfb85da535149f5b96a4193bfa1235cf10a140
+Author: nrm33n <84393679+nrm33n@users.noreply.github.com>
+Date:   Tue May 18 22:45:48 2021 -0400
+
+    Create ticketingbody
+
+commit d482b38421c036687f509c69022eb325bed825a7
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Tue May 18 19:46:03 2021 -0400
+
+    Create attractions.html
+
+commit 3c5c862fd8156a95b45353afa9209042a196109a
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Tue May 18 19:28:54 2021 -0400
+
+    Add .txt of google doc to github
+
+commit 11f2d3a2c21795fd8080a7a7974c9ee8d48fd41d
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Tue May 18 19:28:22 2021 -0400
+
+    Deleting, replacing with .txt
+
+commit 8c8f90b4c00319e67c9035a8d246ed9f582405b8
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Tue May 18 19:27:24 2021 -0400
+
+    Adding initial analysis doc to github
+
+commit 037f718942fe885281bf3f562aa2aa07b6609cf8
+Merge: a6dab7a 580b2b2
+Author: Denn <33460871+dedelstein@users.noreply.github.com>
+Date:   Tue May 18 10:58:39 2021 -0400
+
+    Merge pull request #1 from varous/master
+    
+    Create ticketing.html
+
+commit 580b2b289e3388eb99af69eeb220a11502fe0fb5
+Author: Sourav Bagchi <bagchi.srv@gmail.com>
+Date:   Sat May 15 12:27:21 2021 +0530
+
+    Create ticketing.html
+    
+    created ticketing.html file for the ticketing page
+
+commit a6dab7a741c3b27db2ecba770679ee739fae2f80
+Author: Dan <danhedelstein@gmail.com>
+Date:   Wed May 12 16:34:52 2021 -0400
+
+    Add index file with header

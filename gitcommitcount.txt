@@ -1,0 +1,9 @@
+Git Commit Count -- This does not account for quality, as some of these were small edits and some were much more significant.
+generated with git log | sort | uniq -c | grep "Author"
+
+     36 Author: Dan <danhedelstein@gmail.com>
+     19 Author: Denn <33460871+dedelstein@users.noreply.github.com> -- Dan
+     13 Author: Nicole Munk <nicole.munk122@gmail.com>
+      6 Author: Nicole <nicole.munk122@gmail.com>
+     40 Author: nrm33n <84393679+nrm33n@users.noreply.github.com> -- Narmeen
+     36 Author: Sourav Bagchi <bagchi.srv@gmail.com>
