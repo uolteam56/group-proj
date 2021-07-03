@@ -383,7 +383,6 @@ a.button,
 }
 
 .allAttractions {
-  background: rgba(119, 190, 226, 0.8);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
