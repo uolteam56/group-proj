@@ -161,7 +161,7 @@ img {
 .slide-in-left {
   visibility: visible;
   animation-name: slideInLeft;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out;
 }
 @keyframes slideInLeft {
@@ -186,7 +186,7 @@ img {
 .slide-in-right {
   visibility: visible;
   animation-name: slideInRight;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out;
 }
 @keyframes slideInRight {
@@ -383,7 +383,6 @@ a.button,
 }
 
 .allAttractions {
-  background: rgba(119, 190, 226, 0.8);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -664,9 +663,17 @@ footer {
     position: inherit;
   }
 
+  .footer{
+    display: flex;
+  }
+
   #footer-data-container {
-    font-size: x-small;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
     background-color: rgba(119, 191, 226, 0.9);
+    border-style: none;
+    border-radius: 0px;
   }
 
   .footer-col {
