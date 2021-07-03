@@ -1,13 +1,13 @@
 html {
   font-family: "Orbitron", sans-serif;
-  background: radial-gradient(circle, #888 0%, #333 100%);
+  background: radial-gradient(circle, #988 0%, #333 100%);
 }
 
 body {
   margin: auto;
   width: 80%;
   padding: 0;
-  background: rgb(136,136,136);
+  background: rgb(146,136,136);
   background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, #95BBD5 100%);
 }
 
@@ -47,6 +47,8 @@ header {
   align-self: center;
   text-align: center;
   font-size: 1.5vw;
+  color:#322;
+
 }
 
 /* Nav Bar Styling 
@@ -77,6 +79,7 @@ ul {
 
 .navlink a {
   text-align: center;
+  color: #322;
   width: 100px;
 }
 
@@ -137,7 +140,7 @@ img {
 }
 
 .sec-about-container {
-  background-color: rgba(186, 190, 202, 0.95);
+  background-color: rgba(145, 140, 140, 0.95);
   border-radius: 40px;
   padding: 25px 25px 25px 25px;
   height: fit-content;
@@ -640,11 +643,7 @@ footer {
       width: 100%;
       padding: 15px 0px 15px 0px;
   }
-
-  .tagline {
-    font-size: 2.25vw;
-  }
-
+    
   .dropdown-content {
     position: inherit;
   }
