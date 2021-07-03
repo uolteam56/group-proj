@@ -55,7 +55,7 @@ nav {
 
 ul {
   list-style-type: none;
-  padding: 0;
+  padding: 15px;
   margin: auto;
   height: 100%;
 }
