@@ -363,6 +363,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
     text-align: center;
     justify-content: center;
     align-items: center;
+    line-height: 3em;
     width: 50%;
     height: 50%;
     margin: 3px;
