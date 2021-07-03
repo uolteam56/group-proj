@@ -377,6 +377,26 @@ input[type="range"]::-webkit-slider-thumb:hover {
     z-index: 2;
   }
 
+.offers {
+    text-align: center;
+}
+
+.discounts {
+    display: flex;
+    justify-content: center;
+}
+
+ #offers_discount1, #offers_discount2{
+    background-color:rgba(134,211,249,0.9);
+    padding: none;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    margin: 8px;
+    width: 50%
+}
+
+
 /* footer styling
    flex styling both outside and inside containers to maintain
    responsive behavior*/
