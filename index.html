@@ -100,7 +100,7 @@
       </div>
     </div>
 
-    <div class="fade-in sec-about-container" style="visibility:visible;">
+    <div class="sec-about-container">
       <!--Contains some information about the park, embedded links to attractions and booking-->
       <div id="sec1_about">
         <h3>The CS Park</h3>
@@ -116,9 +116,9 @@
   </div>
 
   <!-- Div class section2 containing 2 images for fractal land, about text, link to booking-->
-  <div class="sec" id="sec2">
+  <div class="fade-in-animation sec" id="sec2">
     <!-- Image of fractal model and fractal mirror -->
-    <div class="fractal-land-images">
+    <div class="fade-in-animation fractal-land-images">
       <img id="fractal-1" src="./assets/attractions/fractalModels_fractal_land.jpeg"
         alt="Image of computer generated fractal model">
 
@@ -126,7 +126,7 @@
         alt="Image of the output of a person's mirror reflection distorted using fractals">
     </div>
     <!-- Some information about fractal land-->
-    <div class= "fade-in sec-about-container" style="visibility:visible;">
+    <div class= "sec-about-container">
       <div id="sec2_about">
         <h3 class=general-text>Fractal Land</h3>
         <p class=general-text><em>Experience an ever-changing gallery</em></p>
@@ -141,9 +141,9 @@
   </div>
 
   <!-- Div class section3 containing 4 images of the CS history museum and meet the stars attractions, about text, and a link to booking-->
-  <div class="sec" id="sec3">
+  <div class="fade-in-animation sec" id="sec3">
     <!-- Images of museum & meet the stars -->
-    <div class="Museum_Stars_Images">
+    <div class="fade-in-animation Museum_Stars_Images">
       <div id="top-mus-imgs">
         <img src="./assets/attractions/lispMachine_cs_history.jpeg" alt="An image of a lisp machine">
         <img src="./assets/attractions/univac.jpeg" alt="An image of a UNIVAC">
@@ -156,7 +156,7 @@
     </div>
     <!-- Some information about the CS Museum and meet the stars -->
     <div class="sec-about-container">
-      <div class="fade-in sec3_about">
+      <div class="sec3_about">
         <h3 class="general-text">Museum and Meet the Stars!</h3>
         <p class="general-text">Take a tour through the Museum of Computer Science History. This is home to many of the
           invaluable inventions that pioneered the development of computers and the way we use technology today.</p>
@@ -169,9 +169,9 @@
   </div>
 
   <!-- Div class section4 containing an image of the theme park, some text about COVID protocols, a link to learn more about COVID protocols -->
-  <div class="sec" id="sec4">
+  <div class="fade-in-animation sec" id="sec4">
     <!-- COVID safety guidelines that we are implementing in the park-->
-    <div class="fade-in sec-about-container" id="sec4">
+    <div class="sec-about-container" id="sec4">
       <div class="sec4_about">
         <h3 class="general-text">COVID Safety</h3>
         <p class="general-text">We are committed to upholding all COVID-19 safety guidlines for the protection of our
@@ -180,12 +180,12 @@
           are hand sanitization stations set up at several areas around the park.</p>
       </div>
       <!-- A button to learn more about covid safety guidelines-->
-      <a class="button" href="/COVID.html">Learn more about COVID safety</a>
+      <a class="fade-in-animation button" href="/COVID.html">Learn more about COVID safety</a>
       <!--A link to FAQs -->
-      <a class="button" href="/faq.html">FAQs</a>
+      <a class="fade-in-animation button" href="/faq.html">FAQs</a>
     </div>
     <!-- Image of people walking around CS Park -->
-    <div class="covid_img">
+    <div class="fade-in-animation covid_img">
       <img src="./assets/attractions/themepark_covid.jpg" alt="An image of people walki around a theme park">
     </div>
   </div>
@@ -218,6 +218,7 @@
     </div>
   </footer>
   <script src='js/slideShow.js'></script>
+  <script src='js/fadeInOnScroll.js'></script>
 </body>
 
 </html>

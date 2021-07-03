@@ -147,13 +147,17 @@ img {
   height: 100%;
 }
 
+.fade-in-animation {
+  visibility: hidden;
+}
+
 /* Animation for .sec-about-container */
 
 .fade-in{
 
   animation-name: fadeIn;
 
-  animation-duration: 2s;  
+  animation-duration: 1s;  
 
   animation-timing-function: ease-in-out;    
 
