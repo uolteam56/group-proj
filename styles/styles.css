@@ -7,8 +7,12 @@ body {
   margin: auto;
   width: 80%;
   padding: 0;
-  background: rgb(146,136,136);
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, #95BBD5 100%);
+  background: rgb(146, 136, 136);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.8) 0%,
+    #95bbd5 100%
+  );
 }
 
 /* Header and nav styling 
@@ -27,6 +31,7 @@ header {
   justify-content: space-between;
   flex-wrap: nowrap;
   align-items: flex-end;
+  background-color: rgba(245, 255, 250, 0.95);
 }
 
 .logo-container {
@@ -47,8 +52,7 @@ header {
   align-self: center;
   text-align: center;
   font-size: 1.5vw;
-  color:#322;
-
+  color: #322;
 }
 
 /* Nav Bar Styling 
@@ -61,13 +65,12 @@ nav {
   align-items: center;
   margin: 0;
   padding: 0;
-  border-radius: 30px;
 }
 
 ul {
   list-style-type: none;
-  padding: none;
-  margin: auto;
+  padding: 0;
+  margin: 0;
   height: 100%;
 }
 
@@ -75,7 +78,6 @@ ul {
   padding: 25px 25px;
   margin: auto;
   width: 100px;
-  text-align: center;
 }
 
 .navlink a {
@@ -86,30 +88,28 @@ ul {
 
 .navlink:hover {
   background-color: rgba(119, 191, 226, 1);
-  border-style: outset;
-  border-radius: 30px;
   cursor: pointer;
 }
 
-.navbtn, .dropbtn {
-    color: black;
+.navbtn,
+.dropbtn {
+  text-align: center;
+  color: black;
 }
 
 /* Body and content styling
    Image borders, text styling, and body background/layout to allow
    for effective flex positioning of content */
 
-
-
 p {
   font-family: "Ubuntu", sans-serif;
   font-size: 18px;
 }
 
-h5{
-    text-align: center;
-    font-family: "Ubuntu", sans-serif bold;
-    font-size: 16px;
+h5 {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif bold;
+  font-size: 16px;
 }
 
 img {
@@ -134,7 +134,6 @@ img {
   margin-bottom: 5%;
   max-height: fit-content;
 }
-
 
 #sec4 {
   margin-bottom: 2.5%;
@@ -167,21 +166,21 @@ img {
 }
 @keyframes slideInLeft {
   0% {
-      transform: translateX(150%);
+    transform: translateX(150%);
   }
   40% {
-      transform: translateX(-4%);
+    transform: translateX(-4%);
   }
   60% {
-      transform: translateX(4%);
+    transform: translateX(4%);
   }
-  
+
   80% {
-      transform: translateX(-2%);
+    transform: translateX(-2%);
   }
   100% {
     transform: translateX(0%);
-}
+  }
 }
 
 .slide-in-right {
@@ -192,19 +191,19 @@ img {
 }
 @keyframes slideInRight {
   0% {
-      transform: translateX(-150%);
+    transform: translateX(-150%);
   }
   40% {
-      transform: translateX(4%);
+    transform: translateX(4%);
   }
   60% {
-      transform: translateX(-4%);
+    transform: translateX(-4%);
   }
   80% {
-      transform: translateX(2%);
+    transform: translateX(2%);
   }
   100% {
-      transform: translateX(0%);
+    transform: translateX(0%);
   }
 }
 
@@ -213,34 +212,30 @@ img {
 .fade-in {
   visibility: visible;
   animation-name: fadeIn;
-  animation-duration: 0.5s;  
-  animation-timing-function: ease-in-out;    
-  
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes fadeIn {
-
   0% {
-      opacity: 0.1;
+    opacity: 0.1;
   }
-  20%{
-      opacity: 0.3;
+  20% {
+    opacity: 0.3;
   }
-  45%{
-      opacity: 0.5;
+  45% {
+    opacity: 0.5;
   }
-  60%{
-      opacity: 0.7;
+  60% {
+    opacity: 0.7;
   }
-  85%{
-      opacity: 0.8;
-  }               
+  85% {
+    opacity: 0.8;
+  }
   100% {
-      opacity: 1;
-  }   
-
+    opacity: 1;
+  }
 }
-
 
 .fractal-land-images {
   display: flex;
@@ -257,7 +252,7 @@ img {
 
 #fractal-2 {
   padding-left: 35%;
-  max-height:40%;
+  max-height: 40%;
   width: 60%;
 }
 
@@ -286,9 +281,15 @@ img {
   display: block;
 }
 
-[class$="DropdownContent"] {
+.dayDropdownContent,
+.wkndDropdownContent,
+.sznDropdownContent {
   display: none;
-  z-index: 1;
+  background-color: rgba(119, 191, 226, 1);
+  border-radius: 2%;
+  width: inherit;
+  z-index: 5;
+  position: absolute;
 }
 
 .dropdown-content {
@@ -306,22 +307,25 @@ img {
 
 .dayDropdown:hover .dayDropdownContent {
   display: block;
+  left: 8%;
 }
 
 .wkndDropdown:hover .wkndDropdownContent {
   display: block;
+  left: 35%;
 }
 
-.sznDropdown:hover .seasonDropdownContent {
+.sznDropdown:hover .sznDropdownContent {
   display: block;
+  left: 62%;
 }
+
 a.button {
   display: flex;
 }
 
 a.button,
-.purchasebutton,
-[class$="dropbutton"] {
+.purchasebutton {
   letter-spacing: 1.5px;
   width: 50%;
   background-color: rgba(119, 190, 226, 0.5);
@@ -332,64 +336,80 @@ a.button,
   text-align: center;
 }
 
-.learnmorebutton {
-    width: 20%;
-    background-color: rgba(135,135,250,0.8);
-    padding: 5px 5px 5px 5px;
-    text-align: center;
-    border-style: none;
+.learnmore {
+  letter-spacing: 1.5px;
+  width: 100%;
+  background-color: rgba(119, 190, 226, 0.5);
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  border-color: rgba(255, 255, 255);
+  border-style: inset;
+  text-align: center;
 }
+
+.learnmore:hover {
+  background-color: rgba(119, 191, 226, 1);
+  cursor: pointer;
+  border: 2px outset mintcream;
+}
+
+[class$="Dropdown"] {
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  border-style: none;
+  width: 30%;
+  align-self: center;
+}
+
 
 /* Attraction page styling
    Modified header to static in attractions.html
    in order to allow consistent interaction with page content */
 
 .slider-container {
-  width: 300px;
-  height: 120px;
-  flex-shrink: 0;
-  border:2px solid rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(0, 0, 0, 0.5);
   border-radius: 8%;
-  background-color: rgba(119, 190, 226, 0.7);
+  background-color: rgba(119, 190, 226, 0.5);
+  height: 100px;
+  margin: 5px;
+  width: 70%; 
   align-self: center;
-  justify-self: center;
 }
 
 .attractions-container {
   display: flex;
   flex-flow: column;
-  justify-content:space-evenly; 
+  justify-content: space-evenly;
 }
 
 .allAttractions {
-   background: rgba(119, 190, 226, 0.8);
-   display: flex;
-   flex-flow: row wrap;
-   justify-content:space-around; 
+  background: rgba(119, 190, 226, 0.8);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .attraction {
-   display: grid;
-   margin: 5px;
-   text-align: center;
-   width: 35%;
-   height: 25%;
-   flex-grow: 1;
-   border-radius: 30px;
-   
-  }
-  
-  /* Flex-Grow allows for certain attraction containers to be larger than others while
-     maintaining responsive sizing for the page as a whole */
-  #at4 {
-      flex-grow: 2;
-  }
+  display: grid;
+  margin: 5px;
+  text-align: center;
+  width: 35%;
+  height: 25%;
+  flex-grow: 1;
+  border-radius: 30px;
+}
 
-  /* Centered images in attraction containers */
-  .attraction>img {
-    display: block;
-    margin: 0 auto;
-  }
+/* Flex-Grow allows for certain attraction containers to be larger than others while
+     maintaining responsive sizing for the page as a whole */
+#at4 {
+  flex-grow: 2;
+}
+
+/* Centered images in attraction containers */
+.attraction > img {
+  display: block;
+  margin: 0 auto;
+}
 
 /* Slider styling -- necessary to disable default webkit appearance in order
    to customize slider, most likely not fully cross-browser compatible, optimal in chrome
@@ -419,7 +439,6 @@ datalist {
 }
 
 input[type="range"]::-webkit-slider-runnable-track {
-  
   background: rgba(240, 240, 240, 0.2);
   height: 3px;
   border: 3px outset rgba(240, 240, 240, 0.493);
@@ -441,58 +460,54 @@ input[type="range"]::-webkit-slider-runnable-track:hover {
   background: rgba(240, 240, 240, 0.9);
 }
 input[type="range"]::-webkit-slider-thumb:hover {
-    background: rgb(243, 150, 29);
+  background: rgb(243, 150, 29);
 }
-
 
 /* Ticketing styling
    Flex styling with customized dropdown behavior*/
 
-  .ticketing-container {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
+.ticketing-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 
-   #daypass, #wkndpass, #sznpass {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    line-height: 3em;
-    width: 50%;
-    height: 50%;
-    margin: 3px;
-    background-color: rgba(135, 135, 250, 0.8);
-  }
-
-  [class$="DropdownContent"] {
-    background-color: rgba(119, 190, 226, 0.9);
-    border-radius: 10px;
-    position: fixed;
-    z-index: 2;
-  }
+#daypass,
+#wkndpass,
+#sznpass {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  line-height: 2em;
+  width: 50%;
+  height: 50%;
+  margin: 3px;
+  background-color: rgba(135, 135, 250, 0.8);
+}
 
 .offers {
-    text-align: center;
+  text-align: center;
 }
 
 .discounts {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
- #offers_discount1, #offers_discount2{
-    background-color:rgba(134,211,249,0.9);
-    padding: none;
-    text-align: center;
-    justify-content: left;
-    align-items: center;
-    margin: 8px;
-    width: 50%
+#offers_discount1,
+#offers_discount2 {
+  background-color: rgba(134, 211, 249, 0.9);
+  padding: none;
+  text-align: center;
+  justify-content: left;
+  align-items: center;
+  margin: 8px;
+  width: 50%;
 }
-
 
 /* footer styling
    flex styling both outside and inside containers to maintain
@@ -563,7 +578,7 @@ footer {
   cursor: pointer;
   position: relative;
   top: 40%;
-  color: #E67235;
+  color: #e67235;
   font-size: 20px;
   transition: 0.5s ease-in-out;
   border-radius: 0 4px 4px 0;
@@ -624,12 +639,12 @@ footer {
     padding: 0;
     margin: auto;
   }
-  
+
   #logo {
     display: none;
   }
 
-  #logo-mobile{
+  #logo-mobile {
     display: block;
   }
 
@@ -640,10 +655,11 @@ footer {
   }
 
   .navlink {
-      width: 100%;
-      padding: 15px 0px 15px 0px;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
   }
-    
+
   .dropdown-content {
     position: inherit;
   }
@@ -659,24 +675,51 @@ footer {
   }
 
   .sec {
-      flex-flow: column wrap;
+    flex-flow: column wrap;
   }
 
   .slider-container {
-      top: 510px;
-      width: 100%;
-  }
-
-   .ticketing-container {
-    flex-flow: column wrap;
-  }
-  
-  #daypass, #wkndpass, #sznpass {
     width: 100%;
   }
 
-  [class$="DropdownContent"] {
-    position: inherit;
+  .allAttractions {
+    flex-flow: column;
+    justify-content: center;
   }
 
+  .attraction {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .ticketing-container {
+    flex-flow: column wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #daypass,
+  #wkndpass,
+  #sznpass {
+    width: 100%;
+    margin: 0;
+  }
+
+  [class$="DropdownContent"] {
+    width: 75%;
+  }
+
+  .dayDropdown:hover .dayDropdownContent {
+    left: 12.5%;
+  }
+
+  .wkndDropdown:hover .wkndDropdownContent {
+    left: 12.5%;
+  }
+
+  .sznDropdown:hover .sznDropdownContent {
+    left: 12.5%;
+  }
 }
