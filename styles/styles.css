@@ -58,6 +58,7 @@ nav {
   background-color: rgba(119, 191, 226, 0.6);
   flex-flow: row wrap;
   justify-content: flex-end;
+  align-items: center;
   margin: 0;
   padding: 0;
   border-radius: 30px;
@@ -357,7 +358,7 @@ a.button,
 .attractions-container {
   display: flex;
   flex-flow: column;
-  justify-content:space-around; 
+  justify-content:space-evenly; 
 }
 
 .allAttractions {
@@ -374,7 +375,6 @@ a.button,
    width: 35%;
    height: 25%;
    flex-grow: 1;
-   border-style: inset;
    border-radius: 30px;
    
   }
