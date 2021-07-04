@@ -1,3 +1,3 @@
 # group-proj
 wd1040 group 56 website
-// Enter Static Lab address here //
+https://hub.coursera-apps.org:443/connect/sharedblqskqrw?forceRefresh=false&path=%2F
